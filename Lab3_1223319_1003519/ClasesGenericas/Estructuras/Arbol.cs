@@ -23,7 +23,8 @@ namespace ClasesGenericas.Estructuras
                     Valor = value,
                     Padre = null,
                     Izquierda = null,
-                    Derecha = null
+                    Derecha = null,
+                    Altura = 0
                 };
             }
             else
@@ -43,6 +44,8 @@ namespace ClasesGenericas.Estructuras
                         Izquierda = null,
                         Derecha = null
                     };
+                    position.Derecha.Altura = AlturaNodo(position.Derecha);
+                    Verificar(position);
                 }
                 else
                     Insert(value, position.Derecha, comparer);
@@ -58,6 +61,8 @@ namespace ClasesGenericas.Estructuras
                         Izquierda = null,
                         Derecha = null
                     };
+                    position.Izquierda.Altura = AlturaNodo(position.Izquierda);
+                    Verificar(position);
                 }
                 else
                     Insert(value, position.Izquierda, comparer);
@@ -168,7 +173,7 @@ namespace ClasesGenericas.Estructuras
             }
             catch
             {
-                return default(IComparable);
+                return default;
             }
         }
 
@@ -217,6 +222,82 @@ namespace ClasesGenericas.Estructuras
             recorrido.Add(position.Valor);
             if (position.Derecha != null)
                 Inorden(position.Derecha, recorrido);
+        }
+
+        private void Postorden(Nodo<IComparable> position, List<int> recorrido)
+        {
+            if (position.Izquierda != null)
+                Postorden(position.Izquierda, recorrido);
+            if (position.Derecha != null)
+                Postorden(position.Derecha, recorrido);
+            recorrido.Add(position.Altura);
+        }
+
+        private void Verificar(Nodo<IComparable> position)
+        {
+            if (FactorEquilibrio(position) > 1)
+            {
+                if (FactorEquilibrio(position.Derecha) == -1)
+                {
+                    //Rotacion doble a la izquierda
+                    RotarDerecha(position.Derecha);
+                }
+                RotarIzquierda(position);
+            }
+            else if (FactorEquilibrio(position) < -1)
+            {
+                if (FactorEquilibrio(position.Izquierda) == 1)
+                {
+                    //Rotacion doble a la derecha
+                    RotarIzquierda(position.Izquierda);
+                }
+                RotarDerecha(position);
+            }
+            if (position.Padre != null)
+            {
+                Verificar(position.Padre);
+            }
+        }
+
+        private void RotarDerecha(Nodo<IComparable> position)
+        {
+
+        }
+
+        private void RotarIzquierda(Nodo<IComparable> position)
+        {
+
+        }
+
+        private int FactorEquilibrio(Nodo<IComparable> position)
+        {
+            int alturaDerecha = position.Altura;
+            int alturaIzquierda = position.Altura;
+            List<int> izquierda = new List<int>();
+            List<int> derecha = new List<int>();
+            if (position.Derecha != null)
+                Postorden(position.Derecha, derecha);
+            if (position.Izquierda != null)
+                Postorden(position.Izquierda, izquierda);
+            for (int i = 0; i < izquierda.Count; i++)
+            {
+                if (izquierda[i] > alturaIzquierda)
+                    alturaIzquierda = izquierda[i];
+            }
+            for (int i = 0; i < derecha.Count; i++)
+            {
+                if (derecha[i] > alturaDerecha)
+                    alturaDerecha = derecha[i];
+            }
+            return alturaDerecha - alturaIzquierda;
+        }
+
+        private int AlturaNodo(Nodo<IComparable> position)
+        {
+            if (position.Padre != null)
+                return 1 + AlturaNodo(position.Padre);
+            else
+                return 0;
         }
 
         public IEnumerator<IComparable> GetEnumerator()

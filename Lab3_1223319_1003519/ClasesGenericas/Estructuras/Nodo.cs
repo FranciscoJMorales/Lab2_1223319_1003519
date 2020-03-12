@@ -12,5 +12,6 @@ namespace ClasesGenericas.Estructuras
         public Nodo<T> Izquierda { get; set; }
         public Nodo<T> Derecha { get; set; }
         public T Valor { get; set; }
+        public int Altura { get; set; }
     }
 }
