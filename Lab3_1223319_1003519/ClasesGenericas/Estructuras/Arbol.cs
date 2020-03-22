@@ -15,7 +15,6 @@ namespace ClasesGenericas.Estructuras
 
         public void Add(IComparable value, Comparison<IComparable> comparer)
         {
-            Count++;
             if (Raiz == null)
             {
                 Raiz = new Nodo<IComparable>
@@ -25,6 +24,7 @@ namespace ClasesGenericas.Estructuras
                     Izquierda = null,
                     Derecha = null
                 };
+                Count++;
             }
             else
                 Insert(value, Raiz, comparer);
@@ -43,11 +43,13 @@ namespace ClasesGenericas.Estructuras
                         Izquierda = null,
                         Derecha = null
                     };
+                    Count++;
+                    Verificar(position);
                 }
                 else
                     Insert(value, position.Derecha, comparer);
             }
-            else
+            else if (comparer.Invoke(value, position.Valor) < 0)
             {
                 if (position.Izquierda == null)
                 {
@@ -58,6 +60,8 @@ namespace ClasesGenericas.Estructuras
                         Izquierda = null,
                         Derecha = null
                     };
+                    Count++;
+                    Verificar(position);
                 }
                 else
                     Insert(value, position.Izquierda, comparer);
@@ -80,6 +84,8 @@ namespace ClasesGenericas.Estructuras
                     }
                     if (aux == Raiz)
                         Raiz = null;
+                    if (aux.Padre != null)
+                        Verificar(aux.Padre);
                 }
                 else if (aux.Derecha != null && aux.Izquierda != null)
                 {
@@ -89,7 +95,8 @@ namespace ClasesGenericas.Estructuras
                         reemplazo = reemplazo.Derecha;
                     }
                     Delete(reemplazo.Valor, comparer);
-                    if (aux.Padre != null)
+                    aux.Valor = reemplazo.Valor;
+                    /*if (aux.Padre != null)
                     {
                         if (aux.Padre.Izquierda == aux)
                         {
@@ -106,7 +113,7 @@ namespace ClasesGenericas.Estructuras
                     reemplazo.Izquierda = aux.Izquierda;
                     reemplazo.Derecha = reemplazo.Derecha;
                     if (aux == Raiz)
-                        Raiz = reemplazo;
+                        Raiz = reemplazo;*/
                 }
                 else
                 {
@@ -162,6 +169,8 @@ namespace ClasesGenericas.Estructuras
                             Raiz = aux.Derecha;
                         }
                     }
+                    if (aux.Padre != null)
+                        Verificar(aux.Padre);
                 }
                 Count--;
                 return aux.Valor;
@@ -217,6 +226,110 @@ namespace ClasesGenericas.Estructuras
             recorrido.Add(position.Valor);
             if (position.Derecha != null)
                 Inorden(position.Derecha, recorrido);
+        }
+
+        private void Postorden(Nodo<IComparable> position, List<int> recorrido)
+        {
+            if (position.Izquierda != null)
+                Postorden(position.Izquierda, recorrido);
+            if (position.Derecha != null)
+                Postorden(position.Derecha, recorrido);
+            recorrido.Add(Altura(position));
+        }
+
+        private void Verificar(Nodo<IComparable> position)
+        {
+            if (FactorEquilibrio(position) > 1)
+            {
+                if (FactorEquilibrio(position.Derecha) == -1)
+                {
+                    //Rotacion doble a la izquierda
+                    RotarDerecha(position.Derecha);
+                }
+                RotarIzquierda(position);
+            }
+            else if (FactorEquilibrio(position) < -1)
+            {
+                if (FactorEquilibrio(position.Izquierda) == 1)
+                {
+                    //Rotacion doble a la derecha
+                    RotarIzquierda(position.Izquierda);
+                }
+                RotarDerecha(position);
+            }
+            if (position.Padre != null)
+            {
+                Verificar(position.Padre);
+            }
+        }
+
+        private void RotarDerecha(Nodo<IComparable> position)
+        {
+            if (position == Raiz)
+                Raiz = position.Izquierda;
+            if (position.Padre != null)
+            {
+                if (position.Padre.Izquierda == position)
+                    position.Padre.Izquierda = position.Izquierda;
+                else
+                    position.Padre.Derecha = position.Izquierda;
+            }
+            position.Izquierda.Padre = position.Padre;
+            position.Padre = position.Izquierda;
+            position.Izquierda = position.Padre.Derecha;
+            if (position.Izquierda != null)
+                position.Izquierda.Padre = position;
+            position.Padre.Derecha = position;
+        }
+
+        private void RotarIzquierda(Nodo<IComparable> position)
+        {
+            if (position == Raiz)
+                Raiz = position.Derecha;
+            if (position.Padre != null)
+            {
+                if (position.Padre.Izquierda == position)
+                    position.Padre.Izquierda = position.Derecha;
+                else
+                    position.Padre.Derecha = position.Derecha;
+            }
+            position.Derecha.Padre = position.Padre;
+            position.Padre = position.Derecha;
+            position.Derecha = position.Padre.Izquierda;
+            if (position.Derecha != null)
+                position.Derecha.Padre = position;
+            position.Padre.Izquierda = position;
+        }
+
+        private int FactorEquilibrio(Nodo<IComparable> position)
+        {
+            int alturaDerecha = Altura(position);
+            int alturaIzquierda = alturaDerecha;
+            List<int> izquierda = new List<int>();
+            List<int> derecha = new List<int>();
+            if (position.Derecha != null)
+                Postorden(position.Derecha, derecha);
+            if (position.Izquierda != null)
+                Postorden(position.Izquierda, izquierda);
+            for (int i = 0; i < izquierda.Count; i++)
+            {
+                if (izquierda[i] > alturaIzquierda)
+                    alturaIzquierda = izquierda[i];
+            }
+            for (int i = 0; i < derecha.Count; i++)
+            {
+                if (derecha[i] > alturaDerecha)
+                    alturaDerecha = derecha[i];
+            }
+            return alturaDerecha - alturaIzquierda;
+        }
+
+        private int Altura(Nodo<IComparable> position)
+        {
+            if (position.Padre != null)
+                return 1 + Altura(position.Padre);
+            else
+                return 0;
         }
 
         public IEnumerator<IComparable> GetEnumerator()

@@ -11,7 +11,11 @@
     <input type="text" class="form-control" name="search" placeholder="Buscar farmaco" />
     <button type="submit">Buscar</button>
 }
-
+<br />
+<input type="button" value="Realizar pedido" onclick="location.href='@Url.Action("NuevoPedido", "Farmaco")'" />
+<br />
+<input type="button" value="Reabastecer fármacos" onclick="location.href='@Url.Action("MostrarReabastecer", "Farmaco")'" />
+<br />
 <table class="table">
     <tr>
         <th>
@@ -45,7 +49,3 @@
     }
 
 </table>
-<br />
-<input type="button" value="Realizar pedido" onclick="location.href='@Url.Action("NuevoPedido", "Farmaco")'" />
-<br />
-<input type="button" value="Reabastecer fármacos" onclick="location.href='@Url.Action("MostrarReabastecer", "Farmaco")'" />

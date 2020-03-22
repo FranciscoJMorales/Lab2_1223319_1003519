@@ -22,7 +22,7 @@ namespace Lab3_1223319_1003519.Helpers
 
         public Arbol<Farmaco> Indice = new Arbol<Farmaco>();
         public Arbol<Farmaco> SinExistencias = new Arbol<Farmaco>();
-        public List<Farmaco> Pedidos = new List<Farmaco>();
+        public List<FarmacoPrecio> Pedidos = new List<FarmacoPrecio>();
         public bool PrimeraSesion = true;
         public string Farmacos;
         public string[] ListadoFarmacos;

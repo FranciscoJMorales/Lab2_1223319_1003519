@@ -1,4 +1,4 @@
-﻿@model IEnumerable<Lab3_1223319_1003519.Models.Farmaco>
+﻿@model IEnumerable<Lab3_1223319_1003519.Models.FarmacoPrecio>
 
 @{
     ViewBag.Title = "Pedido";
@@ -15,6 +15,9 @@
         <th>
             @Html.DisplayNameFor(model => model.Cantidad)
         </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Precio)
+        </th>
         <th></th>
     </tr>
 
@@ -28,14 +31,17 @@
                 @Html.DisplayFor(modelItem => item.Cantidad)
             </td>
             <td>
-                @Html.ActionLink("Delete", "Delete", new { id = item.ID })
+                @Html.DisplayFor(modelItem => item.Precio)
+            </td>
+            <td>
+                @Html.ActionLink("Eliminar", "Eliminar", new { id = item.ID })
             </td>
         </tr>
     }
 
 </table>
 <br />
-<h4>Insertar Datos</h4>
+<h4>Ingresar Datos</h4>
 @using (Html.BeginForm("NuevoPedido",
                         "Farmaco",
                         FormMethod.Post,
