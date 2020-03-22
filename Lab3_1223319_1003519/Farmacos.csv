@@ -1,9 +1,961 @@
-1;REMEDY Calazime Skin Protectant;"Adverse effect of amphetamines, subsequent encounter";"Medline Industries, Inc.";540.21;10
-2;LOESTRIN Fe 1/20;Asymptomatic varicose veins of right lower extremity;"Teva Women's Health, Inc.";825.55;5
-3;Milk of Magnesia;"Disp fx of lateral epicondyl of r humer, 7thP";Walgreen Company;937.66;2
-4;"Pollens - Weeds and Garden Plants, Ragweed, Giant Ambrosia trifida";"Poisoning by succinimides and oxazolidinediones, undet";Jubilant HollisterStier LLC;812.10;154;"Pollens - Weeds and Garden Plants, Ragweed, Giant Ambrosia trifida";"Poisoning by succinimides and oxazolidinediones, undet";Jubilant HollisterStier LLC;812.10;0
-5;Colloidal Silver;"Unspecified injury of lung, bilateral, initial encounter";Apotheca Company;514.56;3
-6;Venlafaxine;Other superficial bite of unspecified back wall of thorax;Clinical Solutions Wholesale;858.27;116;Venlafaxine;Other superficial bite of unspecified back wall of thorax;Clinical Solutions Wholesale;858.27;5
-7;Prednisone;"Fibrous dysplasia (monostotic) unspecified shoulder";Qualitest Pharmaceuticals;159.61;57;Prednisone;"Fibrous dysplasia (monostotic) unspecified shoulder";Qualitest Pharmaceuticals;159.61;0
-8;Regular Strength Aspirin EC;"Struck by falling object on oth powered watercraft, init";"NCS HealthCare of KY, Inc dba Vangard Labs";136.34;0
-9;Divalproex Sodium;Partial traumatic transphalangeal amputations - Weeds and Garden Plants, Ragweed, Giant Ambrosia trifida", "Poisoning by succinimides and oxazolidinediones, undet";Jubilant HollisterStier LLC;812.1;89;Divalproex Sodium;Partial traumatic transphalangeal amputations - Weeds and Garden Plants, Ragweed, Giant Ambrosia trifida", "Poisoning by succinimides and oxazolidinediones, undet";Jubilant HollisterStier LLC;812.1;2
+40,TIGAN,"Episcleritis periodica fugax, left eye",REMEDYREPACK INC.,789.04,0
+41,IQ Dental Mepivacaine,"Extreme immaturity of NB, gestatnl age 26 completed weeks",IQ Dental,809.61,11
+42,CLADOSPORIUM SPHAEROSPERMUM,Oth place in single-family (private) house as place,"ALK-Abello, Inc.",202.12,13
+43,Brontuss,Hemiplga following nontraumatic subarachnoid hemorrhage,Portal Inc.,475.44,3
+44,4 in 1 Pressed Mineral SPF 15 Blush Medium,Deviated nasal septum,PUR MINERALS,734.15,3
+45,Orapred,"Nondisp intartic fx unsp calcaneus, subs for fx w routn heal",Concordia Pharmaceuticals Inc.,265.26,3
+46,Moore Medical Antacid,"Nondisp seg fx shaft of unsp tibia, 7thN",Moore Medical LLC,172.60,1
+47,balance-n-brighten,"Ped w convey injured in collision w hv veh in traf, sequela",LAURA GELLER MAKE UP INC.,121.28,5
+48,Secura EPC Skin Care Starter Kit,"Infection of intervertebral disc (pyogenic), lumbar region","Smith & Nephew, Inc.",30.05,9
+49,Allergenic Extracts Standardized Mite,Encounter for examination and observation for oth reasons,"Greer Laboratories, Inc.",98.30,7
+50,Laxative pills,"Disp fx of lateral malleolus of unsp fibula, 7thN",Freds Inc,779.79,4
+51,Bio Argimony,"Toxic effect of cobra venom, accidental, init","BioActive Nutritional, Inc.",634.71,4
+52,Xolox,Conjunctival hyperemia,Rebel Distributors Corp,920.90,14
+53,HYDRACLEAR HYDRATING ACNE GEL,"Disp fx of lateral malleolus of r fibula, 7thG","KATE SOMERVILLE SKINCARE, LLC",186.66,3
+54,Aqua Rush Serum,"Pnctr w/o fb of unsp eyelid and periocular area, sequela","AMI Cosmetic Co.,Ltd.",756.15,15
+55,Saccharomyces,"Adverse effect of unsp drug/meds/biol subst, init","Antigen Laboratories, Inc.",902.76,7
+56,FAST RELIEF ARTROSAMIN,"Displaced transverse fx shaft of right ulna, sequela",Chemco Corporation,23.50,8
+57,flormar REBORN BB SUNSCREEN BROAD SPECTRUM SPF 30 CP07 Nude Beige,"Laceration without foreign body, right knee, init encntr",Kosan Kozmetik Sanayi ve Ticaret A.S.,391.70,1
+58,MENOMUNE - A/C/Y/W-135 COMBINED,"Poisoning by antineopl and immunosup drugs, assault, sequela",Sanofi Pasteur Inc.,502.97,9
+59,Navy Bean,"Person outside 3-whl mv inj in clsn w hv veh in traf, subs","Antigen Laboratories, Inc.",30.64,1
+60,Exelon,"Toxic effect of methanol, assault, sequela","Physicians Total Care, Inc.",755.38,2
+61,Amoxicillin,"Torus fracture of upper end of left humerus, init",Teva Pharmaceuticals USA Inc,985.44,3
+62,ENALAPRIL MALEATE,Type 1 diabetes mellitus with other specified complication,Wockhardt USA LLC.,674.64,5
+63,Hydrochlorothiazide,"Residual stage of open-angle glaucoma, unspecified eye",Carilion Materials Management,169.53,6
+64,Gnaphalium Stannum,"Dislocation of sacroiliac and sacrococcygeal joint, init",Uriel Pharmacy Inc.,857.20,6
+65,Tranexamic Acid,"Other specified injuries of thyroid gland, subs encntr","APP Pharmaceuticals, LLC",623.09,1
+66,Metformin Hydrochloride,Oth diab with prolif diabetic rtnop with trctn dtch macula,"PD-Rx Pharmaceuticals, Inc.",232.69,9
+67,Octreotide Acetate,"Oth fx shaft of rad, unsp arm, subs for clos fx w nonunion",SUN PHARMACEUTICAL INDUSTRIES LIMITED,91.00,12
+68,Lorazepam,"Displ spiral fx shaft of l tibia, init for opn fx type I/2","Hospira, Inc.",439.78,9
+69,Triple Antibiotic,Animal-rider injured in collision w rail trn/veh,Rite Aid Corporation,95.94,14
+70,LISINOPRIL,"Displ lateral mass fx 1st cervcal vert, 7thD",Lake Erie Medical DBA Quality Care Products LLC,300.58,14
+71,Desmopressin Acetate,"Pathological fracture, left finger(s)",BluePoint Laboratories,376.26,3
+72,Allopurinol,Other superficial bite of right ring finger,Bryant Ranch Prepack,620.40,4
+73,Dots Apple Cinnamon Anti-Bacterial Hand Sanitizer,Laceration of blood vessel of right index finger,ALILY (ZHANGZHOU) BATH PRODUCTS LTD.,94.27,4
+74,OP Dark Tanning Gel 4,Fracture of lateral condyle of humerus,"Sun & Skin Care Research, LLC",95.56,8
+75,GAS AND COLIC KIDS RELIEF,"Strain of left quadriceps muscle, fascia and tendon, subs",HOMEOLAB USA INC,839.23,4
+76,FreshKote Lubricant Eye Drops,"Disp fx of l tibial spin, 7thM","FOCUS Laboratories, Inc.",502.36,13
+77,Cough and Cold,"Traum hemor cereb, w LOC >24 hr w/o ret consc w surv, subs","Selder, S.A. de C.V.",763.08,3
+78,Telmisartan,"Toxic effect of unsp gases, fumes and vapors, accidental","Glenmark Generics Inc., USA",36.10,12
+79,Fire Ant,Other urethral stricture,"Nelco Laboratories, Inc.",103.25,2
+80,Irbesartan,"Other physeal fracture of right calcaneus, init",American Health Packaging,287.54,11
+81,Hydromorphone HCl,"Other specified injuries of unspecified foot, subs encntr",Cantrell Drug Company,958.41,3
+82,Follistim AQ,"Other specified disorders of synovium and tendon, elbow",Organon USA Inc.,244.36,5
+83,Bumetanide,"Nondisp fx of lateral condyle of right femur, init",Baxter Healthcare Corporation,988.88,13
+84,Medi Stem Eye,"Lac w/o fb of r frnt wl of thorax w penet thor cavity, subs","AMI Cosmetic Co.,Ltd.",618.38,2
+85,Metoclopramide,Laceration w/o fb of l little finger w damage to nail,American Health Packaging,584.50,5
+86,OXYCODONE AND ACETAMINOPHEN,"Unsp fracture of right femur, subs for clos fx w malunion","Mallinckrodt, Inc.",930.11,11
+87,Carvedilol,Other specified disorders of breast,Mylan Institutional Inc.,689.86,5
+88,Meteoric Iron Prunus,Pilar and trichodermal cyst,Uriel Pharmacy Inc.,261.04,15
+89,healthy accents multi symptom cold,"Nondisp fx of ant wall of l acetab, subs for fx w routn heal",DZA Brands LLC,914.94,13
+90,Good Sense Childrens Pain and Fever,"Toxic effect of venom of black widow spider, self-harm, init",L. Perrigo Company,758.38,6
+91,DR.ISAO VITA WHITE SERUM,"Adverse effect of antineoplastic and immunosup drugs, subs",IASO Inc,419.56,1
+92,Sisal,Toxic effect of other specified inorganic substances,"Nelco Laboratories, Inc.",584.33,15
+93,Nabumetone,"Exposure to ignition of oth clothing and apparel, subs","Blenheim Pharmacal, Inc.",744.68,1
+94,Crest 3D White,Subluxation and dislocation of C1/C2 cervical vertebrae,The Procter & Gamble Manufacturing Company,246.50,11
+95,Equate Cool and Heat,"Unsp athscl nonaut bio bypass of the extremities, left leg",Wal-Mart Stores Inc,147.48,6
+96,donepezil hydrochloride,"Sltr-haris Type II physl fx upr end rad, unsp arm, 7thK",McKesson Packaging Services a business unit of McKesson Corporation,76.99,9
+97,Pravastatin Sodium,"Laceration of dorsal vein of right foot, initial encounter","MedVantx, Inc.",659.40,15
+98,Flurazepam,"Major depressive disorder, single episode","Golden State Medical Supply, Inc.",484.67,15
+99,Retisert,"Unsp inj msl/fasc/tnd post grp at thi lev, unsp thigh, sqla",Bausch & Lomb Incorporated,947.48,3
+100,Amlodipine besylate/atorvastatin calcium,Occup of 3-whl mv injured in clsn w statnry object nontraf,Mylan Pharmaceuticals Inc.,755.96,7
+101,Inflammation,"Person outsd 3-whl mv inj in nonclsn trnsp acc nontraf, subs",Apotheca Company,961.00,6
+102,Gelato APF,"Other contact with rat, sequela","Mycone Dental Supply Co., Inc DBA Keystone Industries and Deepak Products Inc",481.16,1
+103,Desipramine Hydrochloride,"Unspecified superficial injury of right forearm, init encntr",KAISER FOUNDATION HOSPITALS,488.41,4
+104,Acyclovir,"Diab with prolif diabetic rtnop with trctn dtch macula, bi",Rebel Distributors Corp,412.05,6
+105,Correct and Perfect Spot Treatment,"Poisoning by chloramphenicol group, self-harm, sequela","Dr. Dennis Gross Skincare, LLC",833.65,3
+106,Methocarbamol,"Accidental malfunction of hunting rifle, subs encntr",Sandoz Inc,807.15,6
+107,Picato,Other disorders of the right eye following cataract surgery,LEO Pharma Inc.,884.86,9
+108,DEPRESSION COMPOSITION,Sucked into jet engine,"Synergy Formulas, Inc.",241.03,5
+109,SHISEIDO SHEER MATIFYING COMPACT (REFILL),"Toxic effect of carb monx from utility gas, assault, subs","SHISEIDO CO., LTD.",362.36,6
+110,Eve Lom Brilliant Cover Concealer Broad Spectrum SPF 15 Sunscreen,"Parasomnia, unspecified",Space Brands Limited,906.08,1
+111,Aspirin,"Mature T/NK-cell lymphomas, unsp, intrathoracic lymph nodes","Bedrock Brands, LLC (ST. JOSEPH)",356.25,15
+112,"Standardized Mite, Dermatophagoides pteronyssinus, Intradermal, 30 AU per mL","Displaced fracture of body of unspecified talus, sequela",Jubilant HollisterStier LLC,926.87,13
+113,Moxifloxacin,Disorders of acoustic nerve,Dr. Reddy's Laboratories Limited,650.98,15
+114,Vicodin,"Ped w convey injured in collision w pedl cyc nontraf, init",AbbVie Inc.,925.01,10
+115,GLUCOPHAGE,"Other secondary chronic gout, right shoulder, with tophus","PD-Rx Pharmaceuticals, Inc.",605.13,9
+116,Degree,"Pre-existing type 1 diabetes mellitus, in the puerperium",Conopco Inc. d/b/a Unilever,335.98,6
+117,Renes Carbo Special Order,"Leakage of coronary artery bypass graft, sequela",Uriel Pharmacy Inc.,709.42,3
+118,Amitriptyline Hydrochloride,"Unsp fx head of unsp femur, subs for clos fx w routn heal",Mylan Pharmaceuticals Inc.,943.87,13
+119,Metronidazole,Pressure ulcer of unspecified hip,BluePoint Laboratories,992.67,4
+120,Venlafaxine hydrochloride,"Oth traum nondisp spondylolysis of sixth cervcal vert, 7thK",Dr. Reddy's Laboratories Limited,437.38,12
+121,CVS COLD AND HOT MEDICATED XL,"Oth disp fx of upper end of unsp humerus, init for opn fx","CVS PHARMACY, INC.",454.36,1
+122,ROPINIROLE HYDROCHLORIDE,Traumatic rupture of unsp ulnocarpal (palmar) ligament,Major Pharmaceuticals,303.71,7
+123,Synthroid,Fracture of one rib,State of Florida DOH Central Pharmacy,560.88,2
+124,Zyprexa,"Corrosion of respiratory tract, part unsp, init encntr","Dispensing Solutions, Inc.",598.30,15
+125,"Terrasil Itch, Rash and Pain Relief","Wedge comprsn fx fifth lum vert, subs for fx w routn heal","Aidance Skincare & Topical Solutions, LLC",313.80,1
+126,Aplicare Povidone-iodine Scrub,Beta thalassemia,"Aplicare, Inc.",165.07,5
+127,Lovastatin,"Stress fracture, right finger(s)",Rebel Distributors Corp,417.08,12
+128,FungaZoil Advanced,"Dermatochalasis of unspecified eye, unspecified eyelid",Pedifix,377.15,11
+129,ropinirole hydrochloride,Encounter for exam and obs following alleged physical abuse,Cadila Healthcare Limited,453.96,10
+130,Gillette Mach 3 Invisible,Inadequate sleep hygiene,Procter & Gamble Manufacturing Company,446.32,8
+131,Felodipine,"Underdosing of unsp systemic anti-infect/parasit, sequela",REMEDYREPACK INC.,132.04,2
+132,Berry Scented Hand Sanitizer,"Strain of intrinsic msl/tnd at ank/ft level, left foot","Townley, Inc.",556.89,5
+133,Flu Relief Therapy,NIHSS score 4,Walgreens,545.52,10
+134,Ranitidine,Superficial frostbite of unspecified finger(s),Valu Merchandisers Company,599.01,4
+135,Love and Beauty Peach Mango Anti-Bacterial Hand Sanitizer,Dislocation of metatarsophalangeal joint of unsp toe(s),ALILY (ZHANGZHOU) BATH PRODUCTS LTD.,303.49,13
+136,BAROX,"Oth fracture of upper end of left ulna, init for clos fx",Dr.JangLab Inc.,942.97,13
+137,Next Choice,"Driver of bus injured in collision w unsp mv in traf, init","H.J. Harkins Company, Inc.",319.78,8
+138,Bupropion Hydrochloride,"Vertebral artery compression syndromes, site unspecified",REMEDYREPACK INC.,183.33,1
+139,Tormentilla Cochlearia Menstrual Support,"Sltr-haris Type II physl fx low end rad, r arm, 7thP",Uriel Pharmacy Inc,208.52,2
+140,Dial For Men Dandruff Control Hair and Body Wash,"Stable burst fracture of T5-T6 vertebra, sequela",The Dial Corporation,563.10,3
+141,Daytime,"Psychological abuse, suspected","Premier Value (Chain Drug Consortium, LLC)",861.88,8
+142,Good Neighbor Pharmacy,"Burns of oth parts of unsp eye and adnexa, init encntr",AMERISOURCEBERGEN DRUG CORPORATION,531.93,10
+143,Hydrocodone Bitartrate And Acetaminophen,Varicose veins of left lower extremity with ulcer of calf,REMEDYREPACK INC.,349.47,13
+144,Pleo San Pseu,"Exposure to bed fire due to unsp burning material, sequela",Sanum Kehlbeck GmbH & Co. KG,229.52,2
+145,Quackgrass Pollen,Secondary neuroendocrine tumors,"Allermed Laboratories, Inc.",827.99,12
+146,AZITHROMYCIN,Person outside car injured in nonclsn trnsp accident nontraf,WOCKHARDT USA LLC.,90.13,9
+147,Tobramycin,Secondary malignant neoplasm of unsp part of nervous system,Mylan Institutional LLC,354.16,9
+148,AMBIEN,Sepsis due to Enterococcus,STAT Rx USA LLC,170.50,7
+149,Hydrocodone Bitartrate And Acetaminophen,"Coma scale, best motor response, obeys commands, admit",REMEDYREPACK INC.,934.71,8
+150,Vagistat-3,"Burn of second degree of unspecified thigh, subs encntr","Novartis Consumer Health, Inc.",473.92,11
+151,Famotidine,"Hit by falling object due to accident to fishing boat, init",REMEDYREPACK INC.,954.93,15
+152,Standardized Redtop Grass,"Sltr-haris Type III physl fx upr end rad, r arm, 7thD","Allermed Laboratories, Inc.",41.33,5
+153,Darby,"Exposure to tanning bed, sequela",Darby Dental Supply Co Inc,122.59,6
+154,Compro,"Nondisp fx of trapezium, right wrist, subs for fx w nonunion","PD-Rx Pharmaceuticals, Inc.",79.86,10
+155,Clear Proof Acne System,"Angular blepharoconjunctivitis, right eye",Mary Kay Inc.,717.84,5
+156,Esterified Estrogens and Methyltestosterone,"Unsp superficial injuries of breast, unsp breast, subs",ANIP Acquisition Company,884.47,3
+157,Babyganics,Pedestrian on foot injured in collision w hv veh in traf,"Autumn Harp, Inc.",947.28,2
+158,ENALAPRIL MALEATE,Acquired absence of unspecified wrist,Unit Dose Services,440.36,9
+159,PCXX NEUTRAL GEL PINA COLADA,"Nondisp fx of lateral cuneiform of r ft, 7thP",Ross Healthcare Inc.,451.42,1
+160,LEADER Caldyphen,Di George's syndrome,Cardinal Health,212.74,10
+161,Terazosin Hydrochloride,"Recurrent dislocation, elbow",REMEDYREPACK INC.,878.59,1
+162,BARLEY MALT,"Corros 1st deg of unsp site unsp lower limb, ex ank/ft, sqla","Allergy Laboratories, Inc.",739.91,14
+163,Any Mi Natural Magic BB No.5,Disp fx (avulsion) of medial epicondyle of left humerus,"K.N.Life Co., Ltd.",232.30,13
+164,NAPROXEN,"Subluxation of unsp interphaln joint of unsp finger, init",REMEDYREPACK INC.,359.66,2
+165,Viscum Tiliae,"Sltr-haris Type IV physl fx upper end humer, unsp arm, init",Uriel Pharmacy Inc,464.10,9
+166,Extra Strength Non-Aspirin,"Nondisp fx of intermed cuneiform of l foot, init for opn fx","VALUE MERCHANDISERS COMPANY, INC.",587.31,14
+167,Levofloxacin,"Disp fx of distal pole of navicular bone of r wrist, sequela",Greenstone LLC,998.88,6
+168,Neomycin and Polymyxin B Sulfates and Bacitracin Zinc,"Ankylosing hyperostosis, occipito-atlanto-axial region","Physicians Total Care, Inc.",792.99,11
+169,rx act nasal,"Pnctr of abd wall w fb, r low q w/o penet perit cav, sqla",H E B,20.04,10
+170,Unscented SPF 17,"Other specified injuries of external genitals, sequela","CoValence, Inc.",472.41,8
+171,Nystatin,Subcutaneous panniculitis-like T-cell lymphoma,Rebel Distributors Corp,284.97,9
+172,DOCTORS CHOICE,"Infections of cervix in pregnancy, second trimester",Massco Dental A Division of Dunagin Pharmaceuticals,517.73,5
+173,FEXOFENADINE HYDROCHLORIDE,"Assault by oth gas, air or spring-operated gun, subs encntr",Sun Pharmaceutical Industries Limited,477.95,11
+174,Eucerin Redness Relief Daily Perfecting,Subluxation of unsp interphalangeal joint of r mid finger,Beiersdorf Inc,589.12,9
+175,VELCADE,"Nondisp oblique fx shaft of humerus, right arm, sequela","Millennium Pharmaceuticals, Inc.",961.67,2
+176,Curad Oral Saline Laxative,"Occupant (driver) of hv veh injured in unsp traf, init","Medline Industries, Inc.",502.62,12
+177,Caduet,"Car driver injured in collision w SUV nontraf, sequela",Pfizer Laboratories Div Pfizer Inc,369.26,11
+178,Zicam,"Puncture wound with foreign body, right lower leg, sequela","Matrixx Initiatives, Inc.",529.68,14
+179,Chlorpromazine Hydrochloride,"Unsp injury of blood vessel of other finger, init encntr","NCS HealthCare of KY, Inc dba Vangard Labs",602.42,11
+180,RITE AID RENEWAL,Postthrom syndrome w ulcer and inflam of unsp low extrm,RITE AID CORPORATION,925.39,10
+181,Earths Best Cold Relief Vapor,"Driver of pk-up/van inj in clsn w 2/3-whl mv nontraf, sqla","The Hain Celestial Group, Inc",16.43,10
+182,Terrasil IPL Relief,Unsp comp of fb acc left in body following remov cath/pack,"Aidance Skincare & Topical Solutions, LLC",939.32,6
+183,Antacid,"Puncture wound w foreign body of unsp part of head, init",Meijer Distribution Inc,111.53,6
+184,Lunesta,Other specified injuries of left thigh,Bryant Ranch Prepack,880.37,3
+185,Verapamil Hydrochloride,Trochanteric bursitis,"Aphena Pharma Solutions - Tennessee, LLC",132.94,3
+186,Naturasil,"Complete traumatic amp of unsp forearm, level unsp, subs","Nature's Innovation, Inc.",674.61,3
+187,MATTE MOISTURE TINT SUNSCREEN BROAD SPECTRUM SPF 15,"Fx unsp tarsal bone(s) of unsp foot, subs for fx w nonunion",Jouer Cosmetics LLC,881.73,7
+188,Levetiracetam,"Passenger of amblnc/fire eng injured nontraf, init","Breckenridge Pharmaceutical, Inc.",261.23,13
+189,Metoprolol Tartrate,"Pathological fracture in neoplastic disease, ankle and foot",West-ward Pharmaceutical Corp,333.85,3
+190,Diltiazem Hydrochloride,"Prsn brd/alit a 3-whl mv inj pick-up truck, pk-up/van, subs",Mylan Institutional Inc.,685.30,10
+191,Methscopolamine Bromide,"Dislocation of oth carpometacarpal joint of right hand, subs",E. Fougera & Co. a division of Fougera Pharmaceuticals Inc.,14.77,14
+192,Zanaflex,"Person outsd car inj in clsn w nonmtr vehicle in traf, init","Acorda Therapeutics, Inc.",999.26,7
+193,Paroxetine,Sprain of interphalangeal joint of left ring finger,Lake Erie Medical DBA Quality Care Products LLC,344.17,5
+194,Dry Idea,Complete traumatic MCP amputation of right ring finger,VVF Illinois Services,478.07,10
+195,Formaldehyde,"Pathological fracture, right foot, subs for fx w delay heal","Deseret Biologicals, Inc.",860.65,9
+196,Alprazolam,"Injury of conjunctiva and corneal abrasion w/o fb, left eye",Aidarex Pharmaceuticals LLC,564.33,12
+197,HYDRALIFE BB CREME Enhancing Moisturizer For Immediate Beauty SPF 30,"Sprain of interphalangeal joint of unsp finger, init encntr",Parfums Christian Dior,492.48,10
+198,Dextrose,Tuberculous peritonitis,Baxter Healthcare Corporation,925.93,1
+199,cephalexin,"Toxic effect of ingested mushrooms, accidental",Lake Erie Medical DBA Quality Care Products LLC,979.77,15
+200,Buspirone HCl,"Ankylosis, left ankle",Rebel Distributors Corp.,442.80,5
+201,Loratadine and Pseudoephedrine Sulfate,"Unsp mtrcy rider injured in clsn w hv veh nontraf, sequela",Chain Drug Marketing Association Inc.,489.61,3
+202,Loperamide Hydrochloride,"Corrosion of second degree of left axilla, subs encntr",Mylan Institutional Inc.,295.98,6
+203,SORGHUM HALEPENSE POLLEN,"Occup of pk-up/van inj in nonclsn trnsp acc in traf, sequela","ALK-Abello, Inc.",326.43,8
+204,Ailanthus,"Idiopathic chronic gout, left elbow, without tophus (tophi)","Nelco Laboratories, Inc.",824.38,6
+205,Enulose,"Inj flexor musc/fasc/tend unsp finger at forearm level, subs",Actavis Inc.,326.17,14
+206,Plan B One-Step,Mobile home as the place of occurrence of the external cause,"Teva Women's Health, Inc.",120.50,12
+207,Verapamil Hydrochloride,"Disp fx of unsp tibial tuberosity, 7thR","NCS HealthCare of KY, Inc dba Vangard Labs",325.56,14
+208,Prevacid SoluTab,Other specified hemorrhagic conditions,"Takeda Pharmaceuticals America, Inc.",250.39,14
+209,Dandruff,"Cannabis use, unspecified with anxiety disorder",Your Military,65.09,14
+210,RISPERIDONE,"Unsp inj extensor musc/fasc/tend r thm at wrs/hnd lv, subs",WOCKHARDT USA LLC,77.42,15
+211,ELOCTATE,"Disp fx of intermed cuneiform of unsp ft, 7thK",Biogen Idec Inc.,638.02,5
+212,Glipizide,Nondisplaced transverse fracture of right acetabulum,Apotex Corp.,426.90,9
+213,sunmark tension headache,"Unsp foreign body in esophagus causing oth injury, subs",McKesson,247.30,7
+214,Antipyrine and Benzocaine,"Displ avuls fx (chip fracture) of r talus, init for opn fx","County Line Pharmaceuticals, LLC",130.70,2
+215,Choice Personal Care Theraputic Blue Ice,"Nondisp fx of lunate, unsp wrist, init for clos fx",My Import Inc,372.31,9
+216,Zenchent,"Foreign body on external eye, part unspecified, right eye","Physicians Total Care, Inc.",838.56,6
+217,Tamsulosin hydrochloride,Unspecified fracture of lower end of right ulna,REMEDYREPACK INC.,381.00,3
+218,Diabetes,Struck by falling object on fishing boat,"Newton Laboratories, Inc.",999.91,14
+219,Anti-Bacterial Hand,"Oth extrartic fx low end l rad, init for opn fx type 3A/B/C","Bath & Body Works, Inc.",679.02,3
+220,good sense pain relief,"Fracture of base of skull, left side, sequela",L Perrigo Company,139.94,4
+221,Levothyroxine Sodium,Fistula of vagina to small intestine,REMEDYREPACK INC.,352.23,9
+222,DUAL ACTION CHERRY COUGH SUPPRESSANT ORAL ANESTHETIC,"Volume depletion, unspecified",Ricola Ag,462.82,5
+223,Bystolic,"Underdosing of unspecified narcotics, sequela","Physicians Total Care, Inc.",798.92,3
+224,Evamist,"Occupant (driver) of 3-whl mv injured in unsp traf, sequela","Physicians Total Care, Inc.",351.20,10
+225,Exuviance CoverBlend Skin Caring Foundation,"Age-rel osteopor w crnt path fx, unsp low leg, 7thP",NeoStrata Company Inc.,282.88,2
+226,Tranylcypromine Sulfate,Viral cardiomyopathy,"Par Pharmaceutical, Inc.",803.93,3
+227,Tramadol Hydrochloride,"Oth fx upper end of r radius, subs for clos fx w routn heal",Proficient Rx LP,191.51,1
+228,Adidas,Oth cond rel to interstit emphysema origin in perinat period,Coty US LLC,380.14,12
+229,Captopril,"Poisoning by macrolides, assault",Apotex Corp.,187.57,6
+230,Daytime,"Passenger on bus injured in clsn w ped/anml nontraf, init","Good Sense (Geiss, Destin & Dunn, Inc.)",44.17,4
+231,Olay Complete All Day,"Disp fx of posterior wall of right acetabulum, sequela",Procter & Gamble Manufacturing Company,242.10,5
+232,Live Better,Trichomonal prostatitis,The Great Atlantic & Pacific Tea Company,46.14,6
+233,Ceftriaxone Sodium,"Mech compl of ventricular intracranial shunt, subs",Sandoz Inc,145.21,5
+234,Hard Candy Correction Creme,"Unspecified disorder of synovium and tendon, left upper arm",Xtreme Color Inc.,206.88,13
+235,Escitalopram,"Severely displaced Zone I fracture of sacrum, init",Accord Healthcare Inc.,564.34,4
+236,Triple Antibiotic Plus Pain Relief,"Displ bicondylar fx unsp tibia, subs for clos fx w malunion","Kareway Product, Inc.",32.73,1
+237,Diazepam,"Nondisp pilon fx unsp tibia, init for opn fx type I/2",Cardinal Health,620.20,2
+238,Yeastaway,Contusion of front wall of thorax,Laboratoires Boiron,939.11,13
+239,Acetaminophen,"Burn 2nd deg mul sites of right lower limb, ex ank/ft, subs",Family Dollar (FAMILY WELLNESS),40.49,15
+240,Pedi-Quick OneStep Corn Removers,Encntr for testing of male prtnr of pt w recur preg loss,"PEDIFIX, INC.",19.62,14
+241,Allergies Rocky MTNS. U.S.,"Pnctr w fb of abd wall, epigst rgn w penet perit cav, init",King Bio Inc.,284.85,4
+242,Denti-Care Denti-Freeze,"Fx coronoid process of mandible, unspecified side, init",AR Medicom Inc,544.62,1
+243,Pro-Den Rx,"Oth fx low end r ulna, 7thJ","Zila Therapeutics, Inc.",175.98,8
+244,Pacerone,Other traumatic spondylolisthesis of sixth cervical vertebra,"Upsher-Smith Laboratories, Inc.",646.53,12
+245,Gyne-Lotrimin 3,"Nondisp fx of medial phalanx of right middle finger, init","MSD Consumer Care, Inc.",300.91,9
+246,CORZIDE,Other endosseous dental implant failure,Pfizer Laboratories Div Pfizer Inc,964.16,8
+247,Metformin Hydrochloride,"Chronic osteomyelitis w draining sinus, left radius and ulna",REMEDYREPACK INC.,84.86,14
+248,anti diarrheal,Chronic myeloproliferative disease,Publix Super Markets Inc,106.82,2
+249,HEM-EASY RELIEF Herbal Hemorrhoidal,"Corrosion of first degree of unspecified thigh, subs encntr","Batool Pharma International, Inc",784.13,3
+250,SHISEIDO UV PROTECTIVE FOUNDATION,Hyperplastic and giant kidney,SHISEIDO AMERICAS CORPORATION,102.73,14
+251,TopiCool Pain Relief,"Nondisp pilon fx l tibia, 7thN","TENSproducts, Inc.",335.77,9
+252,Rheumaforce,"Disp fx of posterior wall of right acetabulum, sequela","BioActive Nutritional, Inc.",345.81,8
+253,Allegra Allergy,"Poisoning by other psychotropic drugs, undetermined","Chattem, Inc.",257.27,4
+254,Glipizide,"Sprain of other part of right wrist and hand, init encntr",American Health Packaging,394.62,3
+255,careone allergy relief,"Oth physl fx upper end of r fibula, subs for fx w routn heal",American Sales Company,147.97,10
+256,Ropinirole,"Laceration of left kidney, unspecified degree, sequela","Trigen Laboratories, Inc.",250.08,3
+257,Lovastatin,"Oth traum nondisp spondylolysis of 7th cervcal vert, 7thK",St Marys Medical Park Pharmacy,317.07,10
+258,Venlafaxine Hydrochloride,"Basal cell carcinoma skin/ upper limb, including shoulder",Kremers Urban Pharmaceuticals Inc.,835.38,15
+259,Chest Cold,Sltr-haris Type IV physeal fx lower end of right tibia,Home Sweet Homeopathics,113.71,8
+260,Levothyroxine sodium,"Nondisp fx of third metatarsal bone, l foot, init for opn fx",Lake Erie Medical DBA Quality Care Products LLC,945.75,9
+261,Epinephrine,"Partial traumatic amp of two or more right lesser toes, subs","Amphastar Pharmaceuticals, Inc.",78.42,7
+262,Lovastatin,Newborn affected by maternal infec/parastc diseases,BluePoint Laboratories,648.14,12
+263,Mold Antigens,"Trisomy 21, mosaicism (mitotic nondisjunction)",Apotheca Company,745.41,11
+264,Morphine Sulfate,Other complications of amputation stump,West-ward Pharmaceutical Corp.,689.85,4
+265,Goat Epithelium,"Maternal care for viable fetus in abd preg, second tri, oth","Nelco Laboratories, Inc.",437.75,13
+266,Indigo Carmine,Lac w/o fb of r frnt wl of thorax w penet thoracic cavity,"American Regent, Inc.",91.15,4
+267,Aurum 17 Special Order,"Retained (old) intraocular foreign body, magnetic",Uriel Pharmacy Inc.,483.90,2
+268,Zep Provisions Pot and Pan Premium,"Type I occipital condyle fracture, left side, sequela",Zep Inc.,604.80,7
+269,Potassium Chloride,Driver of bus injured in collision w nonmtr vehicle in traf,"Upsher-Smith Laboratories, Inc.",232.74,4
+270,Diazepam,"Toxic effect of contact w stingray, undetermined, subs",KAISER FOUNDATION HOSPITALS,946.39,9
+271,Bladder Irritation,"Retinal detachment with giant retinal tear, left eye",Natural Health Supply,554.37,5
+272,CLARINS Extra-Comfort Broad Spectrum SPF 15 Sunscreen Tint 114,"Disp fx of med epicondyl of l humer, subs for fx w nonunion",Laboratoires Clarins S.A.,801.17,3
+273,GENOTROPIN,"Disp fx of coronoid pro of l ulna, 7thF",Pharmacia and Upjohn Company,398.60,13
+274,VERELAN,"Poisoning by glucocort/synth analog, self-harm, sequela","UCB, Inc.",248.23,15
+275,"Pollens - Trees, Olive Olea europaea","Corros first degree of unsp mult fngr, not inc thumb, subs",Jubilant HollisterStier LLC,648.29,15
+276,all day relief,Other specified disorders of right middle ear and mastoid,Publix Super Markets Inc,447.66,3
+277,Vital HGH Immune Booster,"Traum rupt of volar plate of r idx fngr at MCP/IP jt, subs","Liddell Laboratories, Inc.",405.85,12
+278,Adalat CC,"Cystocele, lateral",Bayer HealthCare Pharmaceuticals Inc.,697.79,14
+279,Topamax,"Poisoning by otorhino drugs and prep, self-harm, init","Janssen Pharmaceuticals, Inc.",444.15,10
+280,PROVIGIL,Encounter for health supervision and care of foundling,"Cephalon, Inc.",733.41,15
+281,Good Sense lansoprazole,"Abrasion of unspecified back wall of thorax, subs encntr",L. Perrigo Company,786.42,3
+282,MSM (MoSaengMo),"Displ commnt fx l patella, 7thF",Handock Cosmetics Inc,274.24,5
+283,Lorazepam,Burns involving 90% or more of body surface,Rebel Distributors Corp,987.71,11
+284,Pleo Pin,Varicose veins of right lower extremity with ulcer of thigh,Sanum Kehlbeck GmbH & Co. KG,272.77,5
+285,Glyburide,"Disp fx of head of unsp radius, subs for clos fx w malunion",Heritage Pharmaceuticals Inc.,187.09,9
+286,Quinapril,"Fracture of nasal bones, subs encntr for fracture w nonunion",AvPAK,239.80,13
+287,Good Neighbor Pharmacy,"Toxic effect of cobra venom, intentional self-harm, sequela",AMERISOURCEBERGEN DRUG CORPORATION,24.85,9
+288,Colosode,Athscl nonaut bio bypass of r leg w ulcer of heel and midft,Apotheca Company,744.80,15
+289,ELF Milk and Honey Cleansing Anti-bacterial Hand,"Frostbite with tissue necrosis of thorax, sequela","Hangzhou Facecare Cosmetics Co., Ltd.",142.34,10
+290,Digoxin,"Poisoning by antitussives, undetermined, subs encntr",Major Pharmaceuticals,180.76,1
+291,Arterioforce,Other hypoparathyroidism,"BioActive Nutritional, Inc.",775.77,6
+292,Primatene Mist Refill,"Burn of unsp deg mult fingers (nail), not including thumb","Armstrong Pharmaceuticals, Inc.",48.31,9
+293,Vanilla,"Sprain of radiocarpal joint of right wrist, subs encntr","Nelco Laboratories, Inc.",519.16,10
+294,Humalog 70/30,"Occupant of streetcar injured in unsp traffic accident, subs","Physicians Total Care, Inc.",982.86,3
+295,flormar REBORN BB SUNSCREEN BROAD SPECTRUM SPF 30 CP04 Rich Beige,"Retained (old) magnetic fb in vitreous body, right eye",Kosan Kozmetik Sanayi ve Ticaret A.S.,861.78,8
+296,Acetaminophen,Idiopathic aseptic necrosis of tibia and fibula,"New World Imports, Inc",665.45,10
+297,Western Family Broad Spectrum Sunscreen,Toxic effect of soaps,"WESTERN FAMILY FOODS, INC.",110.00,4
+298,Stomach Relief Anti Diarrheal,"Poisoning by antiallerg/antiemetic, assault, sequela",Select Corporation,612.44,3
+299,Banophen,Mineralocorticoids and their antagonists,Major Pharmaceuticals,876.83,12
+300,Ketorolac Tromethamine,"Unsp inj msl/tnd lng flxr msl toe at ank/ft lev,unsp ft,sqla",Akorn,696.90,2
+301,Eron Healing Tonic,"Infct of amniotic sac and membrns, unsp, unsp tri, unsp","GS-TK Co., Ltd",102.40,1
+302,SudoGest,"Unspecified subluxation of unspecified foot, subs encntr",Major Pharmaceuticals,672.61,11
+303,Levofloxacin,Collagenous colitis,West-Ward Pharmaceutical Corp,342.39,15
+304,MEDI-SULTING TOPICAL PAIN RELIEF,"Unsp fx head of r femr, 7thJ",Proficient Rx LP,264.17,11
+305,Moist SURE,Traumatic amputation at elbow level,DSHealthcare,469.02,11
+306,KIDS RELIEF ARNICA,Intcran inj w loss of consciousness of 6 hours to 24 hours,HOMEOLAB USA INC,285.26,1
+307,Testosterone Cypionate,Malignant neoplasm of right fallopian tube,Hikma Farmaceutica,950.35,3
+308,Pamidronate Disodium,Crushing injury of right shoulder and upper arm,Pfizer Laboratories Div Pfizer Inc,866.59,10
+309,Laxative Pills,"Sltr-haris Type III physl fx upr end l tibia, 7thP",TOP CARE (Topco Associates LLC),484.69,15
+310,"Butalbital, Acetaminophen and Caffeine","Abrasion of left upper arm, initial encounter",Rebel Distributors Corp,409.13,5
+311,Simvastatin,Obstetric damage to pelvic joints and ligaments,"Physicians Total Care, Inc.",473.64,12
+312,Western Family,Commercial fixed-wing aircraft explosion injuring occupant,Western Family Foods Inc,186.56,7
+313,Linden,"Unsp fracture of left patella, init for opn fx type I/2","Nelco Laboratories, Inc.",375.97,1
+314,Bupropion hydrochloride,"Disp fx of anterior wall of right acetab, init for opn fx",REMEDYREPACK INC.,752.50,14
+315,napoleon PERDIS SHEER GENIUS LIQUID FOUNDATION BROAD SPECTRUM SPF 20 Look 5,"Unspecified nondisp fx of fourth cervical vertebra, sequela","Napoleon Perdis Cosmetics, Inc",685.44,10
+316,CITOMIX,"Nondisp fx of posterior wall of left acetabulum, sequela",Guna spa,880.84,5
+317,Venlafaxine,"Complication of vein following a procedure, NEC, init",Aidarex Pharmaceuticals LLC,767.03,9
+318,Ibuprofen,Disorders of amino-acid transport,Walgreen Company,396.04,4
+319,HZ Formula,"Corrosion of first degree of right thumb (nail), sequela",Apotheca Company,125.95,14
+320,SOMA Atocell,"Puncture wound w/o foreign body of left shoulder, init","SOMA Biotechnology Co., Ltd",97.43,5
+321,Ranitidine Hydrochloride,Corrosion of second degree of right thumb (nail),Select Brand,877.22,13
+322,Treatment Set TS346697,"Other injury of sigmoid colon, sequela","Antigen Laboratories, Inc.",222.20,8
+323,TECHNIblock ULTRA SUNSCREEN,Prsn brd/alit pk-up/van injured in collision w ped/anml,The Myles Group LLC,432.83,10
+324,HZ,"Oth osteopor w crnt path fx, unsp forearm, 7thP",Apotheca Company,899.02,1
+325,Lamotrigine,"Toxic effect of organic solvents, accidental, sequela",Wockhardt USA LLC.,41.98,3
+326,Nabumetone,"Osteonecrosis due to drugs, left finger(s)","PD-Rx Pharmaceuticals, Inc.",591.10,2
+327,Midazolam HCl,"Swimmer's ear, left ear",Cantrell Drug Company,795.57,7
+328,ESTRACE,"Accident to, on or involving land-yacht, initial encounter","Warner Chilcott (US), LLC",423.11,1
+329,Chemdetox,Other conduct disorders,Restivo Chiropractic,938.61,3
+330,OXYCODONE AND ACETAMINOPHEN,"Unsp fx low end l tibia, 7thF",Lake Erie Medical DBA Quality Care Products LLC,213.66,5
+331,Dexamethasone,"Displaced oth extraarticular fracture of r calcaneus, init",A-S Medication Solutions LLC,289.04,8
+332,Olay Total Effects Anti-Aging Moisturizer,"Skeletal fluorosis, unspecified upper arm",Procter & Gamble Manufacturing Company,527.80,13
+333,Jute,"Toxic effect of herbicides and fungicides, self-harm, subs","Nelco Laboratories, Inc.",733.84,3
+334,TRAMADOL HYDROCHLORIDE,"Unsp superficial injury of right little finger, init encntr",Sun Pharma Global FZE,379.13,7
+335,Minoxidil,"Maternal care for oth rhesus isoimmun, unsp tri, fetus 2",H E B,670.91,6
+336,Valsartan and hydrochlorothiazide,"Displ commnt fx shaft of r fibula, 7thM","Watson Laboratories, Inc.",900.36,5
+337,FEIBA,"Toxic effect of chloroform, intentional self-harm",Baxter Healthcare Corporation,616.83,5
+338,Instant Hand Sanitizer,Unspecified effects of drowning and nonfatal submersion,Harmon Stores Inc,72.27,11
+339,Lithium Carbonate,"Infect/inflm reaction due to periton dialysis cath, sequela","Glenmark Generics Inc., USA",160.28,6
+340,Aspergillus niger,"Nondisp fx of body of scapula, unsp shoulder, init","Nelco Laboratories, Inc.",809.37,8
+341,Flavoxate Hydrochloride,"Nondisp midcervical fx l femr, 7thJ","TAGI Pharma, Inc.",629.39,9
+342,Lasix,Reform school as place,Sanofi-Aventis U.S. LLC,275.94,3
+343,Antibacterial Hand -Vanilla Brown Sugar,Oth comp of spinal and epidural anesth during labor and del,Lonkey Overseas Inc.,655.98,13
+344,Methadone Hydrochloride,Inj extensor musc/fasc/tend l mid finger at forearm level,VistaPharm Inc,919.48,8
+345,TIGAN,"Contusion of unspecified hand, subsequent encounter",REMEDYREPACK INC.,284.32,10
+346,Spinosad,"Unsp opn wnd right lesser toe(s) w damage to nail, init",Macoven Pharmaceuticals,243.02,14
+347,ck one airlight pressed powder spf 15,Cystic fibrosis with other intestinal manifestations,Coty US LLC,478.32,7
+348,INTENSE CARE GALACTOMYCES WHITENING,Cysts of left lower eyelid,"TONYMOLY CO., LTD.",464.67,2
+349,Allopurinol,"Laceration w/o fb of finger w/o damage to nail, sequela",Rebel Distributors Corp.,375.48,14
+350,"Alka-Seltzer Plus Severe Cold, Mucus and Congestion",Bacterial infection of unspecified site,"Bayer HealthCare LLC, Consumer Care",176.65,4
+351,Jantoven,"Unspecified injury of lung, unilateral, sequela",Cardinal Health,850.88,3
+352,mally Poreless Perfection Glowing Foundation Fair,"Accident to, on or involving land-yacht, subs encntr","MallyGirl, LLC",428.67,3
+353,Ibuprofen,"Inj ulnar artery at wrs/hnd lv of unsp arm, sequela",American Health Packaging,130.88,14
+354,Benazepril Hydrochloride and Hydrochlorothiazide,"Displaced articular fracture of head of unsp femur, init",Mylan Pharmaceuticals Inc.,567.66,2
+355,AntiBac Foam Wash/Aerogreen,"Contusion of right forearm, initial encounter","Deb USA, Inc.",184.08,12
+356,Hydroxyzine Hydrochloride,Corros 80-89% of body surface w 80-89% third degree corros,"Physicians Total Care, Inc.",118.30,13
+357,Terazosin Hydrochloride,"Unspecified superficial injury of unspecified thigh, sequela","Physicians Total Care, Inc.",27.80,10
+358,ethosuximide,"Pediculosis, unspecified","Mikart, Inc.",412.35,5
+359,Furosemide,"Inj great saphenous at hip and thigh level, right leg, subs",Cardinal Health,884.49,4
+360,Smooth Brome,"Poisoning by oth drug/meds/biol subst, intentional self-harm","Nelco Laboratories, Inc.",852.83,12
+361,Alloy,"Intermittent hydrarthrosis, hip","Melaleuca, Inc",367.43,1
+362,Nisoldipine,"Superficial foreign body of unsp front wall of thorax, subs","United Research Laboratories, Inc.",375.54,5
+363,Furosemide,"Partial traum amp at level betw r shldr and elbow, sequela",McKesson Contract Packaging,685.82,3
+364,Childrens Ibuprofen,"Poisoning by unsp general anesthetics, accidental, init",Kinray Inc.,891.57,7
+365,Licorice,"Nondisp fx of nk of scapula, l shldr, subs for fx w nonunion","Nelco Laboratories, Inc.",906.77,14
+366,Viscum Crataegus,Person outside 3-whl mv inj in clsn w nonmtr vehicle nontraf,Uriel Pharmacy Inc.,640.97,10
+367,Clario Foaming Antibacterial Skin Cleanser,Sltr-haris Type IV physeal fx lower end of right tibia,"Betco Corporation, Ltd.",524.20,15
+368,Salsalate,"Nondisp commnt fx shaft of humer, unsp arm, init for opn fx",Clinical Solutions Wholesale,117.11,13
+369,DiorSkin Nude 051 Dark Sand,"Nondisp unsp condyle fx low end r femr, 7thR",Parfums Christian Dior,43.77,15
+370,PRAVASTATIN SODIUM,"Oth fx shaft of r fibula, subs for clos fx w nonunion",Clinical Solutions Wholesale,196.90,4
+371,Teething - Colic,"Subluxation of C1/C2 cervical vertebrae, sequela","Newton Laboratories, Inc.",454.82,7
+372,Otic Care Antipyrine and Benzocaine,Olecranon bursitis,PureTek Corporation,887.35,1
+373,LEVOFLOXACIN,Alcohol abuse with alcohol-induced anxiety disorder,Cardinal Health,389.00,12
+374,Ergocalciferol,"Fall from burning bldg in controlled fire, init","AvKARE, Inc.",568.51,9
+375,TEMODAR,"Diffuse large B-cell lymphoma, intra-abdominal lymph nodes","Physicians Total Care, Inc.",755.80,8
+376,Degree,Displaced fracture of neck of left radius,Conopco Inc. d/b/a Unilever,234.85,2
+377,ZIT ERASER,"Nondisp post arch fx first cervcal vertebra, init for opn fx",J. A. Cosmetics U.S. INC,70.60,12
+378,Metoprolol Tartrate,Encntr screen for malignant neoplasm of respiratory organs,Bedford Laboratories,914.28,12
+379,TONG LUO QU TONG GAO,Other forms of cryptococcosis,HENAN LINGRUI PHARMACEUTICAL CO LTD,472.17,3
+380,Citalopram,"Prsn brd/alit hv veh inj pick-up truck, pk-up/van, sequela",Teva Pharmaceuticals USA Inc,117.87,7
+381,Cosmeceutical Mask Pack,"Displaced fracture of trapezoid, left wrist","YBK Investment, INC",226.80,13
+382,TRIPLE ANTIBIOTIC,"Type 1 diab with mod nonp rtnop with macular edema, l eye",The Kroger Co.,801.14,3
+383,BUPROBAN,"Ped on foot injured pick-up truck, pk-up/van, unsp, sequela",TEVA Pharmaceuticals USA Inc,938.59,8
+384,Morphine Sulfate,"Sltr-haris Type II physl fx upr end humer, r arm, 7thK","Upsher-Smith Laboratories, Inc.",741.79,4
+385,Benztropine Mesylate,"Spermatocele of epididymis, unspecified","Bayshore Pharmaceuticals, LLC",49.92,5
+386,Kali Bichromicum Kit Refill,"Nondisp fx of med condyle of l tibia, 7thF",Washington Homeopathic Products,307.58,2
+387,NITETIME,"Cystic meniscus, unspecified meniscus, right knee",Publix Super Markets Inc,324.37,4
+388,Zep Professional Alcohol Hand Sanitizing,"Inj musc/fasc/tend long head of biceps, right arm, sequela",Zep Inc.,29.36,2
+389,Levothyroxine sodium,"Lacerat unsp blood vessel at lower leg level, left leg, init",Sandoz Inc.,146.91,2
+390,Dr. Jart Bounce Beauty Balm 01 Light-medium,"Partial traumatic amputation at elbow level, right arm, init","Have and Be Co., Ltd.",527.26,9
+391,Childrens Fever Reducer and Pain Reliever,"Exposure to melting of oth clothing and apparel, init encntr",Rite Aid Corporation,42.12,5
+392,Tonic,"Nondisp commnt fx l patella, subs for clos fx w routn heal",CarePluss Pharma S.A. de C.V.,747.72,14
+393,Cyclomydril,Oth spon disruption of medial collateral ligament of knee,"Alcon Laboratories, Inc.",482.52,1
+394,tizanidine,"Unstbl burst fx fifth lum vertebra, subs for fx w delay heal","Preferred Pharmaceuticals, Inc.",873.80,4
+395,RE-PB HYOS ELIXIR,"Unspecified kyphosis, site unspecified",KAISER FOUNDATION HOSPITALS,804.02,6
+396,Oxygen,"Foreign body in conjunctival sac, left eye, sequela",Mercy Home Care-HME,302.20,10
+397,Hydrogen Peroxide,"Animal-rider injured in unsp transport accident, subs encntr",Kinray Inc,761.91,8
+398,Western Family Broad Spectrum Sunscreen,"Unsp inj musc/tend the rotator cuff of l shoulder, sequela","WESTERN FAMILY FOODS, INC.",417.09,10
+399,Flanax Pain Reliever,Pedestrian injured nontraf involving oth and unsp mv,Belmora LLC,479.26,3
+400,Ampicillin,Sulfonamides,AGILA SPECIALTIES PRIVATE LIMITED,456.71,1
+401,OXYGEN,"Contusion of eyeball and orbital tissues, left eye, subs",South East Alaska Medical Suppliers Inc.,896.55,8
+402,Alendronate Sodium,"Nondisp suprcndl fx w/o intrcndl extn low end r femr, 7thH",Mylan Institutional Inc.,162.98,3
+403,Black Willow Pollen,"Embolism due to cardiac prosth dev/grft, initial encounter","Allermed Laboratories, Inc.",446.80,9
+404,Antifungal,"Bitten by crocodile, sequela",Safeway,589.79,14
+405,Apeaz Ultra,Injury of thoracic sympathetic nervous system,"Innovus Pharmaceuticals, Inc.",871.01,12
+406,Metoclopramide,"Nondisp oblique fx shaft of l tibia, 7thB",Mylan Institutional Inc.,128.62,12
+407,Triamterene and Hydrochlorothiazide Capsules,Contact with or inhalation of liquid air,"UDL Laboratories, Inc.",110.03,2
+408,Leader Extra Strength Medicated Pain Relief Patch,Superficial foreign body of unspecified wrist,Cardinal Health,715.23,10
+409,MAJOR ULTRA STRENGTH GAS RELIEF,"Oth fx shaft of unsp tibia, subs for clos fx w delay heal",Major Pharmaceuticals,20.91,10
+410,Diltiazem Hydrochloride,"Struck by other sports foot wear, initial encounter",State of Florida DOH Central Pharmacy,337.47,6
+411,MED NAP,"Galeazzi's fx l rad, subs for opn fx type I/2 w delay heal",Med-Nap LLC,936.43,8
+412,Terazosin Hydrochloride,Other noninflammatory disorders of the testis,Major Pharmaceuticals,912.42,12
+413,Bio-Scriptives Lidum,"Leakage of internal prosth dev/grft, init","BioChemics, Inc",792.61,12
+414,Fluoxetine,"Acute angle-closure glaucoma, unspecified eye",Proficient Rx LP,409.98,11
+415,Trifluoperazine Hydrochloride,"Driver of bus injured pick-up truck, pk-up/van in traf, init",REMEDYREPACK INC.,598.23,8
+416,LE BLANC,"Poisoning by emetics, undetermined",CHANEL PARFUMS BEAUTE,881.26,6
+417,ALLERGY RELIEF,"Driver of pk-up/van injured in clsn w oth mv in traf, subs",HOMEOLAB USA INC.,261.79,5
+418,Hydrocortisone,"Fracture of one rib, left side, init for clos fx","NeoPharm Co., Ltd.",584.90,5
+419,ANTACID,"Part traum amp at level betw unsp shldr and elbow, sequela",Target Corporation,280.74,3
+420,Prevent,"Laceration of unsp blood vessel at forarm lv, left arm, init","Pro Chem, Incorporated",555.71,14
+421,Diphenhydramine HCl,Fracture of medial phalanx of lesser toe(s),Softech Pharma Pvt. Ltd,869.67,15
+422,English Walnut Pollen,Other specified dermatitis,"Allermed Laboratories, Inc.",103.53,6
+423,Olive Leaf Antibacterial Foaming Hand Wash,"Traumatic rupture of ligament of finger at MCP/IP jt, subs","SJ Creations, Inc.",368.38,11
+424,Gehwol Fusskraft Nail and Skin Protection,"Displ transverse fx unsp patella, 7thC",Eduard Gerlach GmbH,88.50,14
+425,EyeClear Pro,Precipitous drop in hematocrit,"Native Remedies, LLC",781.48,11
+426,triamcinolone acetonide,"Unsp fracture of unsp patella, subs for clos fx w malunion",Rebel Distributors Corp,966.41,1
+427,safety coated aspirin,"Sltr-haris Type III physl fx low end rad, r arm, 7thD",Care One (American Sales Company),678.49,15
+428,Natures Choice Cool Hot Ice,"Erosion of graft of urinary organ, subsequent encounter","Unipack, Inc.",285.82,14
+429,Pleo Citro,Toxic effects of corrosive alkalis and alk-like substances,Sanum Kehlbeck GmbH & Co. KG,264.25,11
+430,Care One Suphedrine Nasal Decongestant,"Disp fx of ant wall of unsp acetab, subs for fx w nonunion",American Sales Company,610.78,8
+431,Finasteride,Rheu arthritis of right hand w involv of organs and systems,Aurobindo Pharma Limited,337.18,1
+432,Enviroclenz,"Oth fx third MC bone, left hand, subs for fx w malunion","Deseret Biologicals, Inc.",866.54,4
+433,Amiodarone Hydrochloride,"Crushing inj unsp part(s) of l wrist, hand and fingers, init","Taro Pharmaceuticals U.S.A., Inc.",149.57,12
+434,Metoclopramide,"Aortic aneurysm of unspecified site, without rupture",Mylan Institutional Inc.,241.21,13
+435,Anti-Bacterial Hand,"Unspecified physeal fracture of left metatarsal, sequela","Bath & Body Works, Inc.",658.10,7
+436,Imipramine Hydrochloride,Personal history of urinary (tract) infections,"Physicians Total Care, Inc.",196.80,1
+437,Children Acetaminophen,Third degree hemorrhoids,"A&Z Pharmaceutical, Inc.",38.97,4
+438,Hydrogen Peroxide,"Poisoning by barbiturates, assault, sequela","Medline Industries, Inc.",561.42,7
+439,METFORMIN HYDROCHLORIDE,"Superficial foreign body of breast, unsp breast, sequela","Preferred Pharmaceuticals, Inc.",271.10,13
+440,FLU KIDS RELIEF,"Unspecified injury of liver, subsequent encounter",HOMEOLAB USA INC,272.99,4
+441,Escitalopram Oxalate,"Other mastoiditis and related conditions, right ear","Camber Pharmaceuticals, Inc.",198.35,10
+442,ck one waterfresh face makeup spf 15,"Nondisp commnt fx shaft of l tibia, init for opn fx type I/2",Coty US LLC,344.39,7
+443,Alcohol,"Stress fracture, right hand","NANTONG STRIP MEDICAL SUPPLY CO.,LTD.",576.71,4
+444,Aspirin,"Partial traumatic amputation of right midfoot, sequela",America Medic,47.98,11
+445,Risperidone,"Ped w convey injured in collision w hv veh, unsp, sequela",Teva Pharmaceuticals USA Inc,855.23,6
+446,Chlorhexidine Gluconate,"Maternal care for oth isoimmun, second trimester, unsp",Cardinal Health,507.26,6
+447,Amlodipine Besylate,Fracture of fourth metatarsal bone,Cadila Healthcare Limited,545.97,12
+448,Cetirizine Hydrochloride,"Rupture of synovium, right ankle",CVS Pharmacy,831.70,2
+449,Careone,Noise effects on inner ear,American Sales Company,425.10,5
+450,Healthy Hands Foaming Instant Hand Sanitizer,Pain in joints of right hand,"Deb USA, Inc.",328.47,1
+451,CEDAX,Anemia due to disorders of glycolytic enzymes,"Pernix Therapeutics, LLC",916.28,5
+452,Treatment Set TS332091,"Poisoning by aspirin, undetermined, subsequent encounter","Antigen Laboratories, Inc.",175.26,9
+453,CVS PHARMACY,"Low-tension glaucoma, left eye, stage unspecified",CVS PHARMACY,934.83,2
+454,Lidocaine,"Unspecified open wound of larynx, initial encounter","Darby Dental Supply, LLC",367.64,13
+455,Tamoxifen Citrate,"Pnctr w foreign body of l mid finger w damage to nail, subs",KAISER FOUNDATION HOSPITALS,258.32,8
+456,Lucky Instant Hand Sanitizer Citrus Zest,"Other superficial bite of lip, initial encounter",Delta Brands Inc,737.28,15
+457,Fentanyl - NOVAPLUS,"Inj axillary or brachial vein, left side, subs encntr","Watson Laboratories, Inc.",200.87,6
+458,LAMICTAL,"Unsp fracture of left calcaneus, subs for fx w delay heal",Lake Erie Medical & Surgical Supply DBA Quality Care Products LLC,190.11,7
+459,up and up ranitidine,"Oth traum nondisp spondylolysis of sixth cervcal vert, 7thG",Target Corporation,698.06,14
+460,APTIDINE,"Toxic effect of venom of other Australian snake, assault",A P J Laboratories Limited,44.30,6
+461,equate allergy relief,Inflamed seborrheic keratosis,Wal-Mart Stores Inc,852.06,9
+462,SUNSCREEN,"Disp fx of post pro of right talus, subs for fx w routn heal",COSMOCEUTICAL RESEARCH CENTER INC,206.07,15
+463,Antibacterial,"Reiter's disease, hand",Personal Care Products LLC,163.89,11
+464,Losartan Potassium and Hydrochlorothiazide,"Oth osteoporosis w current pathological fracture, unsp site",Teva Pharmaceuticals USA Inc,77.22,10
+465,Mucor,Transverse fracture of shaft of humerus,USPharmaCo,655.31,2
+466,Calcium Chloride,"Arthritis due to other bacteria, unspecified joint","General Injectables & Vaccines, Inc",679.70,11
+467,Terbinafine Hydochloride,"Sltr-haris Type IV physl fx upr end humer, unsp arm, 7thP","Physicians Total Care, Inc.",250.99,11
+468,CD DIORSKIN NUDE SKIN-GLOWING MAKEUP SUNSCREEN BROAD SPECTRUM SPF 15 063 Amber,Cell of prison as place,Parfums Christian Dior,416.53,3
+469,Unithroid,"Burn of third degree of unspecified ankle, sequela","Gemini Laboratories, LLC",276.92,14
+470,Love and Beauty Peach Mango Anti-Bacterial Hand Sanitizer,Bullous impetigo,ALILY (ZHANGZHOU) BATH PRODUCTS LTD.,373.60,7
+471,Harmon Face Values Baby Healing,"Acquired epidermolysis bullosa, unspecified",Delta Pharma Inc.,79.97,9
+472,Sulfamethoxazole and Trimethoprim,Unspecified injury of blood vessel of right little finger,Gen-Source Rx,614.15,15
+473,Homeopathic Immunity Supporting Adjuvant,Pilonidal cyst and sinus without abscess,Ortas International Group S.A.,624.85,5
+474,Atorvastatin Calcium,"Surgical instrumnt, materials and opth devices assoc w incdt",Ranbaxy Pharmaceuticals Inc.,100.77,2
+475,Leader Allerhist,"Osteolysis, right thigh",Cardinal Health,985.37,3
+476,Morphine Sulfate,"External constriction of unspecified thumb, init encntr","Hospira, Inc.",91.65,5
+477,Baczol Expectorant,"Unspecified superficial injury of right thigh, sequela",Lex Inc,513.77,8
+478,TABCIN,Poisoning by and adverse effect of heroin,"Salimex, S.A.",270.82,13
+479,Aspirin,Cysts of right upper eyelid,"Western Family Foods, Inc.",612.44,5
+480,ECOLAB,Perf due to fb acc left in body following kidney dialysis,Ecolab Inc.,511.04,5
+481,acamprosate calcium,Moderate laceration of right kidney,"Forest Laboratories, Inc.",289.67,4
+482,Finasteride,"Combined immunodeficiency, unspecified",Teva Pharmaceuticals USA Inc,566.88,15
+483,Sertraline Hydrochloride,"Nondisp suprcndl fx w/o intrcndl extn low end l femr, 7thR","Med-Health Pharma, LLC",133.36,8
+484,Topiramate,"Traum subdr hem w LOC w dth d/t brain inj bef reg consc,init",Hikma Pharmaceutical,622.93,1
+485,fexofenadine hydrochloride,Swm-pool in sngl-fmly (private) house or garden as place,Western Family Foods Inc,298.93,1
+486,Spironolactone,"Unspecified open wound, unspecified hip, subs encntr",Aidarex Pharmaceuticals LLC,475.67,5
+487,Thuja occidentalis,"Other superficial bite of scrotum and testes, subs encntr",Natures Way Holding Co.,428.45,15
+488,Polyethylene Glycol (3350),"Sprain of interphalangeal joint of r little finger, sequela",CRH Medical Corporation,564.14,10
+489,LANOXIN,"Nondisp subtrochnt fx l femur, init for opn fx type 3A/B/C",REMEDYREPACK INC.,867.02,14
+490,GUNA-STOMACH,"Inferior dislocation of unsp acromioclav jt, sequela",Guna spa,599.11,13
+491,hydrocortisone,"Toxic effect of chloroform, assault, subsequent encounter",E. FOUGERA & CO. A division of Fougera Pharmaceuticals Inc.,642.16,9
+492,daytime,"Unspecified injury of tail of pancreas, subsequent encounter",Hannaford Brothers Company,92.37,15
+493,Clean and Clear Advantage Mark Treatment,"Oth fx upper end unsp tibia, subs for clos fx w routn heal","Johnson & Johnson Consumer Products Company, Division of Johnson & Johnson Consumer Companies, Inc.",529.65,7
+494,Sweet Golden Pear Antibacterial Foaming Hand Wash,Complete traumatic transphalangeal amputation of l idx fngr,"SJ Creations, Inc.",797.93,6
+495,Glyburide,Dislocation of right scapula,"Physicians Total Care, Inc.",210.23,11
+496,Ipratropium Bromide and Albuterol Sulfate,Heat syncope,"Mylan Pharmaceuticals, Inc.",979.85,14
+497,napoleon PERDIS CHINA DOLL FOUNDATION BROAD SPECTRUM SPF 15 Look 2B,"Osteonecrosis due to drugs, left ankle","Napoleon Perdis Cosmetics, Inc",635.18,15
+498,Duloxetine,"Perf due to fb acc left in body fol oth procedure, init",Cadila Healthcare Limited,786.17,7
+499,TAXODIUM DISTICHUM POLLEN,Acquired total absence of pancreas,"ALK-Abello, Inc.",415.38,4
+500,Gelnique,"Puncture wound w foreign body of unsp part of head, init","Watson Pharma, Inc.",649.69,10
+501,Desmopressin Acetate,"Drug-induced headache, not elsewhere classified, intractable",Bryant Ranch Prepack,279.49,12
+502,Anticavity Fluoride Rinse,"Other Hodgkin lymphoma, lymph nodes of axilla and upper limb",Rite Aid,714.82,7
+503,Exchange Select Dark Tanning Sunscreen,"Abrasion, left thigh",ARMY AND AIR FORCE EXCHANGE SERVICE,104.41,7
+504,Enalapril Maleate and Hydrochlorothiazide,Other intestinal malabsorption,Teva Pharmaceuticals USA Inc,104.66,7
+505,CUBA ORIGINAL LADIES ROLL ON ANTIPERSPIRANT DEODORANT,Bariatric surgery status complicating the puerperium,"BB TRADING WORLDWIDE, INC",889.21,6
+506,Acetaminophen and Codeine Phosphate,"Occup of hv veh injured in clsn w pedl cyc nontraf, init",Teva Pharmaceuticals USA Inc,767.22,13
+507,TYLENOL SINUS,"Coma scale, best motor response, abnormal, in the field","McNeil Consumer Healthcare Div McNeil-PPC, Inc",415.30,9
+508,Citalopram,Crushing injury of knee,"Physicians Total Care, Inc.",419.23,9
+509,Hectorol,"Fracture of unsp shoulder girdle, part unsp, init for opn fx",Genzyme Corporation,375.04,6
+510,Revatio,"Poisoning by oth opioids, accidental, sequela",Pfizer Laboratories Div Pfizer Inc,414.64,12
+511,Lombardy Poplar,Herpesviral infection of other urogenital tract,"Nelco Laboratories, Inc.",148.64,9
+512,Bodycology white gardenia anti-bacterial scrubbing hand soap,"Laceration with foreign body of nose, initial encounter",American Blending and Filling,715.04,10
+513,Pleo Alb,Other specified injuries of left ankle,Sanum Kehlbeck GmbH & Co. KG,715.80,13
+514,ZAREE All Kii Coconut Water,"Oth extrartic fx low end l rad, subs for clos fx w malunion","G & NATURE Co., Ltd.",740.32,1
+515,Hydroxychloroquine Sulfate,Vitreous hemorrhage,"Physicians Total Care, Inc.",165.30,12
+516,Mandelay,"Disp fx of unsp ulna styloid pro, 7thM","Majestic Drug Co., INC.",128.58,9
+517,Quack Grass,"Nondisp transverse fx shaft of r rad, 7thN","Nelco Laboratories, Inc.",738.63,15
+518,Koh Gen Do Aqua Foundation,"Nondisp fx of lesser trochanter of right femur, init","Koh Gen Do USA, Inc",402.36,15
+519,ChloraPrep One-Step,"Unsp physl fx lower end unsp femur, subs for fx w delay heal",CareFusion 213 LLC,542.19,8
+520,Nabumetone,"War operations involving gasoline bomb, civilian, sequela","AvKARE, Inc.",862.31,5
+521,Carbocaine,"Nondisp fx of shaft of 5th MC bone, r hand, 7thP","Hospira, Inc.",833.20,14
+522,Phenazopyridine HCl,Unspecified purulent endophthalmitis,A-S Medication Solutions LLC,297.63,9
+523,OXYGEN,"Unsp inj extn musc/fasc/tend r lit fngr at forarm lv, init",Advanced Apothecaries Inc. dba Health Depot,997.91,3
+524,Ciprofloxacin,"Nondisp fx of glenoid cav of scapula, r shldr, 7thP","Carlsbad Technology, Inc.",783.23,9
+525,CENTER-AL - XANTHIUM STRUMARIUM POLLEN,"Oth osteopor w crnt path fx, r ank/ft, 7thG","ALK-Abello, Inc.",603.23,8
+526,Estradiol,"Nondisp fx of nk of scapula, l shldr, subs for fx w nonunion",Bryant Ranch Prepack,886.11,1
+527,Ibuprofen,"Subluxation of tarsal joint of unspecified foot, subs encntr","Healthy Accents (DZA Brands, LLC)",12.82,6
+528,Furosemide,"Laceration w/o fb of abd wall, l upr q w/o penet perit cav",Cardinal Health,368.88,8
+529,Frosted Berry Hand Sanitizer,Malig neoplm of upper-outer quadrant of right female breast,"Papermates, Inc. dba Noteworthy",805.77,13
+530,Oxaliplatin,Newborn affected by incompetent cervix,Sandoz Inc,572.11,3
+531,VITALUMIERE AQUA,"Unspecified dislocation of unspecified toe(s), subs encntr",CHANEL PARFUMS BEAUTE,142.31,11
+532,Topiramate,"Toxic effect of sulfur dioxide, intentional self-harm, subs",REMEDYREPACK INC.,511.04,15
+533,Aminophylline,Toxic effect of unspecified spider venom,Cardinal Health,277.23,1
+534,Lorazepam,"Asphyx due to smothr under another person's body, acc, sqla",AvPAK,631.84,2
+535,Metformin Hydrochloride,"Nondisp seg fx shaft of humer, r arm, 7thD",Greenstone LLC,141.55,4
+536,BB Tinted Treatment 12-hour Primer Broad Spectrum SPF 30 Sunscreen,Open bite of unspecified shoulder,"Tarte, Inc",773.20,12
+537,Neostigmine Methylsulfate,"Nondisp intartic fx unsp calcaneus, subs for fx w nonunion","American Regent, Inc.",229.02,13
+538,Nitrous Oxide,Neoplasm of uncertain behavior of the major salivary glands,Praxair Distribution Southeast LLC,762.41,4
+539,Stoko Refresh,"Disorder of the skin and subcutaneous tissue, unspecified","Evonik Stockhausen, LLC",638.91,11
+540,Sodium Fluoride,"Fall into oth water striking wall causing oth injury, init","Shertech Laboratories, LLC",686.11,13
+541,7 Select Childrens Allergy Relief,"Wrist drop, unspecified wrist",7-Eleven,944.39,9
+542,Triple Antibiotic,Malignant neoplasm of ethmoidal sinus,"New World Imports, Inc",48.44,1
+543,Sulwhasoo evenfair smoothing makeup base NO. 1,Newborn aff by other morpholog and functn abnlt of placenta,AMOREPACIFIC,922.18,14
+544,"ACETAMINOPHEN, DEXTROMETHORPHAN HYDROBROMIDE, and DOXYLAMINE SUCCINATE","Sedative, hypnotic or anxiolytic-related use, unspecified","SPIRIT PHARMACEUTICALS, LLC",292.02,7
+545,No7 Protect and Perfect Foundation Sunscreen Broad Spectrum SPF 15 Cool Vanilla,"Calcium deposit in bursa, right elbow",BCM Cosmetique SAS,315.30,7
+546,Toxoplasma Gondii Remedy,"Displ oblique fx shaft of l ulna, 7thK","Deseret Biologicals, Inc.",202.09,3
+547,"Carbidopa, Levodopa and Entacapone","Aneurysmal bone cyst, left forearm",Sun Pharma Global FZE,641.93,9
+548,Citalopram,"Nondisp fx of l tibial tuberosity, init for opn fx type I/2","Amneal Pharmaceuticals of New York, LLC",487.10,3
+549,smart sense allergy and congestion relief,"Breakdown (mechanical) of urinary devices and implants, subs",Kmart Corporation,144.35,13
+550,Cefuroxime Axetil,"Car passenger injured in clsn w pick-up truck in traf, init",Aurobindo Pharma Limited,693.46,1
+551,Sisal,Unspecified superficial injury of left foot,"Nelco Laboratories, Inc.",559.65,9
+552,Lisinopril with Hydrochlorothiazide,Furuncle of left upper limb,West-Ward Pharmaceutical Corp,571.15,13
+553,Oxcarbazepine,Bruising of scalp due to birth injury,REMEDYREPACK INC.,569.40,8
+554,Mini Berry Lip Balm Blueberry,"Collapsed vertebra, NEC, lumbosacral region","TONYMOLY CO., LTD.",798.40,5
+555,ARRID EXTRA EXTRA DRY XX,"Nondisp commnt fx r patella, subs for clos fx w delay heal","Church & Dwight Co., Inc.",492.68,2
+556,Rimmel London,"Poisoning by tetracyclic antidepressants, undetermined",Lancaster S.A.M.,524.95,5
+557,TRETIN.X,"Occup of bus injured in clsn w pedl cyc in traf, sequela",Onset Dermatologics LLC,776.16,13
+558,Equaline hemorrhoidal cooling,Calculus of bile duct w acute cholangitis with obstruction,Supervalu Inc,850.87,10
+559,SHOPKO RELIEF,"Unsp nondisp fx of 4th cervcal vert, subs for fx w nonunion","HANLIM PHARM. CO., LTD.",401.54,15
+560,MSM (MoSaengMo),"External constriction, unspecified ankle, initial encounter",Handock Cosmetics Inc,463.88,6
+561,Cover Fx Blemish Treatment Concealer G Medium,Displacement of internal fixation device of other bones,"Cover FX Skin Care, Inc.",324.84,13
+562,Blueberry,"Other vitreous opacities, right eye","Nelco Laboratories, Inc.",161.14,5
+563,"Pollens - Trees, Cedar, Mountain Juniperus ashei","Underdosing of cardi-stim glycos/drug simlar act, sequela",Jubilant HollisterStier LLC,675.43,15
+564,Loratadine ODT,"Unsp fx head of l femr, 7thE",Premier Value,315.00,14
+565,Lovastatin,"Toxic effect of contact w sea anemone, undetermined, sequela",Teva Pharmaceuticals USA Inc,189.76,1
+566,Perfecting Liquid Foundation Soft Blush,Unspecified sequelae of unspecified cerebrovascular disease,"Arbonne International, LLC",104.56,5
+567,Ketorolac Tromethamine,ABO incompatibility with hemolytic transfusion reaction,"Hospira, Inc.",662.93,6
+568,Somatuline Depot,Occupant (driver) of 3-whl mv injured in unsp traf,"Ipsen Biopharmaceuticals, Inc.",57.63,8
+569,BAMBUSA AESCULUS,"Anemia due to enzyme disorder, unspecified",URIEL PHARMACY INC.,288.10,12
+570,GLUCOVANCE,"Hypertrophy of bone, right femur",Bristol-Myers Squibb Company,986.13,11
+571,Corn Smut,Inj flexor musc/fasc/tend right ring finger at forearm level,"Nelco Laboratories, Inc.",139.55,2
+572,12 hour decongestant,"Periprosth fx around internal prosth r shoulder jt, subs",Meijer Distribution Inc,33.86,13
+573,Meteoric Iron Phosphorus Quartz,"Unstbl burst fx fourth lum vert, subs for fx w delay heal",Uriel Pharmacy Inc.,73.80,14
+574,Loratadine,"Burn of first deg mult sites of left wrist and hand, init",American Health Packaging,944.89,14
+575,Fosphenytoin,Other specified disorders of cartilage,"Fresenius Kabi USA, LLC",974.82,6
+576,tizanidine,"Terrorism involving oth means, civilian injured, subs encntr",Apotex Corp.,108.43,12
+577,Medline ReadyBath Luxe,Retrobulbar neuritis,"Medline Industries, Inc.",907.65,2
+578,Calcium Acetate,Asymptomatic varicose veins of left lower extremity,"NCS HealthCare of KY, Inc dba Vangard Labs",518.81,2
+579,ADSOL Red Cell Preservation Solution System in Plastic Container (PL 146 Plastic),"Cortical age-related cataract, bilateral","Fenwal, Inc.",486.63,5
+580,Esopinio Topaz Phyto,"Nondisp midcervical fx l femur, init for opn fx type 3A/B/C","ZION SYNTHETIC FIBER CO., LTD.",829.22,13
+581,Russian Olive,"Erosn implnt vaginal mesh to surrnd org/tiss, subs","Nelco Laboratories, Inc.",15.74,7
+582,RISPERIDONE,"Burn due to fishing boat on fire, sequela","Caraco Pharmaceutical Laboratories, Ltd.",907.38,8
+583,Palmers Amaranth,Unspecified acquired deformity of hand,"Nelco Laboratories, Inc.",660.59,1
+584,Losartan Potassium,Legionnaires' disease,"NCS HealthCare of KY, Inc dba Vangard Labs",348.19,4
+585,Shopko Antibacterial Hand Sanitizer,Other physeal fracture of lower end of unspecified femur,"Jets, Sets, & Elephants Beauty Corp.",966.24,9
+586,Finasteride,"Osteophyte, wrist",Cardinal Health,160.88,14
+587,CARE ONE,"Infct of amniotic sac and membrns, unsp, third tri, unsp",AMERICAN SALES COMPANY,389.34,11
+588,CAREONE,"Disp fx of dist phalanx of r great toe, 7thD",AMERICAN SALES COMPANY,170.04,8
+589,PENTOXIFYLLINE,"Unsp fx the low end r rad, 7thM","Aphena Pharma Solutions - Tennessee, LLC",434.04,11
+590,Fluconazole,"Pressure ulcer of right elbow, stage 2",Claris Lifesciences Inc.,115.30,3
+591,Heavy Metal - Amalga Detox,"Unsp physl fx upr end humer, unsp arm, 7thG","Newton Laboratories, Inc.",195.79,5
+592,Caffeic Acid,Problems related to certain psychosocial circumstances,Apotheca Company,338.90,11
+593,Airmit Ace,4-Aminophenol derivatives,"Sato Pharmaceutical Co., Ltd.",216.31,7
+594,CellCept,"Complication of renal artery following a procedure, NEC","Genentech, Inc.",531.34,4
+595,CEFOTAXIME,"Lacerat unsp blood vess at ank/ft level, right leg, sequela",WOCKHARDT LIMITED,817.74,8
+596,Xartemis,Erysipelas,"PD-Rx Pharmaceuticals, Inc.",330.76,13
+597,Sprayology Stress Relief,Pain in left shoulder,Eight and Company,779.55,10
+598,Trichophyton mentagrophytes,"Subluxation of distal interphaln joint of l mid finger, subs","Nelco Laboratories, Inc.",332.88,1
+599,Clarithromycin,"Injury of lateral plantar nerve, left leg, initial encounter",Rebel Distributors Corp.,382.82,5
+600,Live Better,Hidradenitis suppurativa,The Great Atlantic & Pacific Tea Company,932.49,14
+601,Zolpidem Tartrate,"Unsp inj flexor musc/fasc/tend at forarm lv, unsp arm, sqla",Cardinal Health,917.36,1
+602,LBEL NATURAL FINISH MOISTURIZING FOUNDATION SPF 25,"Sprain of metacarpophalangeal joint of unsp finger, subs",Ventura Corporation LTD,208.35,11
+603,Carisoprodol,"Nondisp segmental fx shaft of radius, unsp arm, init",Bryant Ranch Prepack,408.51,9
+604,Nifedipine,"Strain flexor musc/fasc/tend l rng fngr at forarm lv, sqla",McKesson Packaging Services Business Unit of McKesson Corporation,584.80,1
+605,Gianvi,"External constriction of nose, subsequent encounter","MedVantx, Inc.",416.73,7
+606,Sirolimus,"Burn of first degree of left wrist, sequela",Greenstone LLC,728.92,14
+607,Family Care Nasal Relief,"Poisoning by local astringents/detergents, accidental, init",United Exchange Corp,613.48,12
+608,Povidone-Iodine,"Sltr-haris Type I physeal fx phalanx of left toe, 7thB","Medline Industries, Inc.",66.18,2
+609,"Fentanyl Citrate, Bupivacaine HCl","Displ commnt fx shaft of l femr, 7thN",Cantrell Drug Company,576.29,12
+610,Lorazepam,"Nondisp fx of 3rd metatarsal bone, r ft, 7thP",Rebel Distributors Corp,988.15,13
+611,CIPRODEX,Disorders of muscle tone of newborn,"Alcon, Inc.",979.99,1
+612,Metronidazole,"Nondisp longitud fx r patella, 7thE",REMEDYREPACK INC.,136.61,13
+613,PCXX ONE MINTE GEL ROOTBEER,"Oth mult gest w two or more monoamnio fetuses, second tri",Ross Healthcare Inc.,252.46,4
+614,Monistat 3 Combination Pack,"Occupant of pk-up/van injured in oth trnsp acc, sequela",Insight Pharmaceuticals,570.48,6
+615,CISplatin,"Sltr-haris Type II physeal fx upper end of r fibula, init","WG Critical Care, LLC",895.98,9
+616,Paroxetine,"Nondisplaced bicondylar fracture of right tibia, sequela","Preferred Pharmaceuticals, Inc",994.47,5
+617,ARIZONA CYPRESS POLLEN,"Nondisp apophyseal fx l femr, 7thE","Allergy Laboratories, Inc.",414.18,14
+618,Gnaphalium Stannum,"Retinal neovascularization, unspecified, left eye",Uriel Pharmacy Inc.,933.60,1
+619,Neutrogena Wet Skin Kids Beach and Pool,"Poisoning by antirheumatics, NEC, assault, subs",Neutrogena Corporation,118.87,11
+620,Gastritis - Ulcer,"Unsp physl fx low end rad, unsp arm, 7thG","Newton Laboratories, Inc.",664.34,15
+621,Humate-P,"Legal intervnt w inj by mch gun, law enforc offl inj, sqla",CSL Behring GmbH,891.07,10
+622,Miracle Ice,"Pnctr w fb of abd wall, periumb rgn w penet perit cav, subs","FDN Enterprises, LLC",402.61,9
+623,Nitrous Oxide,"Oth foreign object in pharynx causing asphyxiation, subs","Roberts Oxygen Company, Inc.",940.08,13
+624,Levothyroxine Sodium,Intermittent hydrarthrosis,REMEDYREPACK INC.,579.03,12
+625,"Butalbital, Acetaminophen and Caffeine","Inj superficial palmar arch of right hand, init encntr",REMEDYREPACK INC.,314.85,11
+626,Zolpidem Tartrate,"Toxic effect of unsp gases, fumes and vapors, acc, subs",Proficient Rx LP,453.91,13
+627,venlafaxine,"Kissing spine, lumbar region","Trigen Laboratories, LLC",211.00,8
+628,Cough DM,"Occup of amblnc/fire eng injured nontraf, subs",H E B,113.19,7
+629,PREMIER VALUE MEDICATED WIPES,"Sltr-haris Type II physl fx low end r fibula, 7thG","CHAIN DRUG CONSORTIUM, LLC",997.83,8
+630,Good Sense Pain and Fever,"Nondisp fx of post wall of r acetab, subs for fx w nonunion",L Perrigo Company,360.30,1
+631,SAIZEN CLICKEASY,"War op involving unsp effect of nuclear weapon, milt, subs","EMD Serono, Inc.",212.46,1
+632,Childrens Allergy Relief,"Kaschin-Beck disease, left hand",AptaPharma Inc.,479.51,15
+633,Lisinopril,"Adverse effect of antithrombotic drugs, initial encounter",Contract Pharmacy Services-PA,898.36,7
+634,Rayito de Sol,Personal history of (corrected) congenital malformations,Siscom de Argentina S.A.,872.09,12
+635,Naproxen Sodium,"Intermittent hydrarthrosis, left hand",Amneal Pharmaceuticals,810.95,7
+636,Monistat 3 Combination Pack,Pedestrian on foot injured in collision w pedl cyc in traf,"McNeil-PPC, Inc.",584.09,10
+637,Ulta Lavender Woods Anti-Bacterial Hand Sanitizer,"Occup of 3-whl mv injured in clsn w oth mv in traf, init",Ulta,303.94,6
+638,PARAID Alcohol,"Nontraumatic ischemic infarction of muscle, forearm","Planet (Shanghai) International Co., Ltd.",804.15,9
+639,Opana,"Myositis ossificans progressiva, right ankle",Endo Pharmaceuticals Inc.,845.18,3
+640,Glandulae Suprarenales Lien,"Disp fx of r radial styloid pro, subs for clos fx w nonunion",Uriel Pharmacy Inc.,360.53,4
+641,NARS FOUNDATION,"Scombroid fish poisoning, undetermined",NARS Cosmetics,345.18,10
+642,Colgate Proclinical Refreshing Mint,Dislocation of T3/T4 thoracic vertebra,Colgate-Palmolive Canada,951.83,1
+643,Focalin,"Disorder of ligament, wrist",Novartis Pharmaceuticals Corporation,75.63,3
+644,CVS Medicated Chest Rub Roll-On,"Nondisp fx of post wall of r acetab, subs for fx w nonunion",CVS Pharmacy,156.53,5
+645,MEIJER OIL FREE FACES SPF 30,Personal history of psychological abuse in childhood,Meijer Distribution Inc,330.75,15
+646,CARE ONE,"Laceration of liver, unspecified degree",AMERICAN SALES COMPANY,199.86,15
+647,Paroxetine,"Nondisp fx of lateral malleolus of r fibula, 7thM",Contract Pharmacy Services-PA,499.16,10
+648,Timolol Maleate,Abn immunolog findings in specmn from male genital organs,Bausch & Lomb Incorporated,684.31,1
+649,Smart Sense ibuprofen,"Laceration of dorsal vein of unspecified foot, sequela",Kmart Corporation,749.20,8
+650,Antacid,"Open bite of abd wall, right upper q w/o penet perit cav",Western Family Foods Inc,403.19,12
+651,Ibuprofen softgels,"Unsp open wound of r rng fngr w damage to nail, sequela",AmerisourceBergen Drug Corporation (Good Neighbor Pharmacy),82.06,5
+652,Clearasil,"Unsp open wound of oth finger w damage to nail, subs encntr",Reckitt Benckiser LLC,34.97,6
+653,Amlodipine Besylate and Benazepril Hydrochloride,"Toxic effect of venom of oth arthropod, undetermined, subs",BluePoint Laboratories,87.60,7
+654,Senna S,Abn lev drug/meds/biol subst in specimens from oth org/tiss,"EQUATE (Walmart Stores, Inc.)",317.54,10
+655,Crest Pro-Health,"Oth fx lower end of unsp ulna, subs for clos fx w routn heal",Procter & Gamble Manufacturing Company,892.52,2
+656,Benzonatate,"Unsp focal TBI w/o loss of consciousness, init","NCS HealthCare of KY, Inc dba Vangard Labs",945.30,1
+657,sore throat,"Tox eff of corrosv alkalis and alk-like substnc, asslt, init",Kroger Company,975.18,10
+658,Russian Olive,"Diffuse follicle center lymphoma, spleen","Nelco Laboratories, Inc.",842.02,13
+659,Cymbalta,"Crushing injury of abdomen, lower back, and pelvis, init",Lake Erie Medical DBA Quality Care Products LLC,787.03,12
+660,Organoplex Special Order,"Toxic effect of ketones, undetermined, subsequent encounter",Uriel Pharmacy Inc.,318.31,15
+661,Mary Kay Tinted Moisturizer Sunscreen SPF 20 Beige 1,Drug induced retention of urine,Mary Kay Inc.,119.11,11
+662,SAD Soother,Other disorders of bladder,"Native Remedies, LLC",859.19,10
+663,Zyprexa,"Toxic effect of paints and dyes, NEC, intentional self-harm","Dispensing Solutions, Inc.",525.75,15
+664,Topcare Dayhist Allergy,Intraductal carcinoma in situ of unspecified breast,Topco Associates LLC,210.14,9
+665,Male plus,"Fall from burning bldg in controlled fire, subs",VIATREXX BIO INCORPORATED,618.20,11
+666,Ascorbic Acid,"Toxic effect of harmful algae and algae toxins, self-harm",The Torrance Company,281.67,10
+667,INDOCIN,"Displ Maisonneuve's fx unsp leg, 7thF","Iroko Pharmaceuticals, LLC",966.04,8
+668,IMITREX,"Capsular glaucoma with pseudoexfoliation of lens, bilateral",Lake Erie Medical & Surgical Supply DBA Quality Care Products LLC,575.05,11
+669,PhysiciansCare Cold and Cough,"Laceration w foreign body of oth part of head, subs encntr",Acme United Corporation,735.72,5
+670,Neutrogena MoistureShine Lip Soother,"Contact w hot heating appliances, radiators and pipes, init",Neutrogena Corporation,47.66,5
+671,COTTON FIBER,"Sublux of proximal interphaln joint of l little finger, subs","ALK-Abello, Inc.",419.98,2
+672,health mart naproxen sodium,Burn of first deg mult sites of right ankle and foot,McKesson,180.29,3
+673,NITROGEN,"Puncture wound w/o foreign body of left shoulder, subs",Aspen Air US Corp,620.88,2
+674,Agaricus Phosphorus,"Toxic effect of venom of N & S American snake, undetermined",Uriel Pharmacy Inc.,245.42,15
+675,LBel,Oth spon disrupt of posterior cruciate ligament of left knee,"VENTURA INTERNATIONAL LTD.,",842.80,9
+676,AHC Revitalizing Special Gen Cream,Contusion of nose,"Carver Korea Co.,Ltd",520.26,10
+677,Simethicone,"Open bite of left index finger w/o damage to nail, sequela",Softech Pharma Pvt. Ltd,356.62,6
+678,Mentholatum for Kids,Laceration of unsp blood vessel at wrs/hnd lv of unsp arm,The Mentholatum Company,229.47,1
+679,Umcka ColdCare FastActives Mint-Menthol,"Corrosion of third degree of unsp lower leg, init encntr","Nature's Way Products, Inc.",371.21,11
+680,AZITHROMYCIN,"Pnctr w/o fb of unsp great toe w damage to nail, sequela",REMEDYREPACK INC.,634.03,3
+681,mark,"Inj intrinsic msl/tnd at ankle and foot level, right foot","Avon Products, Inc",909.35,7
+682,FLUOROURACIL,"Path fx in oth disease, r humerus, subs for fx w delay heal",Rebel Distributors Corp,811.80,10
+683,Iodine Bush,Benign carcinoid tumor of the thymus,"Nelco Laboratories, Inc.",612.10,10
+684,Saline Laxative,"Disp fx of hook pro of hamate bone, l wrs, 7thP",Supervalu Inc,793.41,15
+685,Oxycodone and Acetaminophen,"Other assault by drowning and submersion, initial encounter","Amneal Pharmaceuticals, LLC",396.96,14
+686,Bupivacaine Hydrochloride,"Displacement of umbrella device, subsequent encounter","Hospira, Inc.",726.47,5
+687,GOAT MILK AND LAVENDER SUN,"Toxic effect of other seafood, assault, initial encounter","SKINFOOD CO., LTD.",700.37,4
+688,Moexipril Hydrochloride and Hydrochlorothiazide,"Nondisp fx of l tibial tuberosity, 7thK",Teva Pharmaceuticals USA Inc,652.54,12
+689,RUE21 Doughnut Sprinkles Antibacterial Hand Sanitizer,"Nondisp unsp condyle fx low end l femr, 7thD",ENCHANTE ACCESSORIES INC.,468.84,4
+690,Clean and Clear,"Unsp inflammatory spondylopathy, multiple sites in spine","Johnson & Johnson Consumer Products Company, Division of Johnson & Johnson Consumer Companies, Inc.",138.84,8
+691,ARTEMISIA FRIGIDA POLLEN,"Strain of flexor musc/fasc/tend finger at wrs/hnd lv, subs","ALK-Abello, Inc.",378.71,9
+692,Levothyroxine,"Burn 3rd deg mu sites of shldr/up lmb, except wrs/hnd, subs","Northwind Pharmaceuticals, LLC",531.88,11
+693,acid reducer,"Nondisp fx of base of unsp MC bone, subs for fx w routn heal",HyVee Inc,662.08,2
+694,Triazolam,Unspecified blood type,"Roxane Laboratories, Inc.",688.56,3
+695,Oxygen,"Nasal polyp, unspecified","Youngstown Oxygen & Welding Supply, Inc.",579.29,7
+696,Methenamine Hippurate,Occupant of 3-whl mv injured in collision w nonmtr vehicle,Rising Pharmaceuticals Inc,865.07,4
+697,clonidine hydrochloride,Adverse effect of opium,NorthStar RxLLC,353.49,5
+698,Lymphdrainex,"Obstructed labor due to face presentation, unsp","Energique, Inc.",340.85,9
+699,Up and Up alcohol,"Sltr-haris Type I physl fx upr end rad, unsp arm, 7thG",Target Corporation,621.11,5
+700,Flu Rescue,Unspecified lesions of oral mucosa,Apotheca Company,442.02,8
+701,Verapamil Hydrochloride,"Pnctr w fb of abd wall, left lower q w penet perit cav, init","PD-Rx Pharmaceuticals, Inc.",795.65,12
+702,Metformin Hydrochloride,"Dislocation of interphaln joint of right great toe, subs",Amneal Pharmaceuticals,559.82,13
+703,Degree,"Sublux of proximal interphaln joint of left thumb, sequela",Conopco Inc. d/b/a Unilever,991.86,15
+704,Xarelto,Other specified injury of brachial artery,"Janssen Pharmaceuticals, Inc.",863.16,7
+705,Lac-Hydrin,Other injury due to other accident to fishing boat,Ranbaxy Laboratories Inc.,753.87,11
+706,Quetiapine fumarate,"Athscl unsp type bypass of the extrm w intrmt claud, bi legs",REMEDYREPACK INC.,791.68,6
+707,UltrasolSunscreen,Presence of coronary angioplasty implant and graft,Fischer Pharmaceuticals Ltd,754.08,6
+708,Ziprasidone hydrochloride,"Major osseous defect, lower leg",TYA Pharmaceuticals,507.15,7
+709,Meloxicam,"Unspecified disp fx of seventh cervical vertebra, sequela",ReadyMeds,915.91,12
+710,Allergy,Strain of other muscles and tendons at lower leg level,Medicine Shoppe International Inc,790.22,2
+711,Mycobutin,Generalized abdominal tenderness,Pharmacia and Upjohn Company,412.62,10
+712,Gentamicin Sulfate,"Other physeal fracture of phalanx of left toe, 7thK",Perrigo New York Inc,995.02,4
+713,Hydralazine Hydrochloride,"Unspecified fracture of left talus, sequela","Ascend Laboratories, LLC",374.53,5
+714,Dukal Alcohol Prep Pad,"Nondisp fx of med condyle of l femr, 7thR",Dukal Corporation,242.33,9
+715,Oxygen,"Pretrm prem ROM, onset labor w/n 24 hours of rupt, third tri",Banner Home Care of Arizona,58.09,1
+716,Lip Smacker SPF Cherry Berry Ball,"Legal intervnt w firearm disch, law enforc offl inj, init",Bonne Bell LLC,286.27,11
+717,Childrens Pain Relief,"Burn third degree of head, face, and neck, unsp site, subs","Shopko Stores Operating Co., LLC",353.76,3
+718,ATOMY TOOTHPASTE,"Small cell B-cell lymphoma, intrathoracic lymph nodes",ATOMY CO LTD,571.18,6
+719,Doxycycline Hyclate,Injury of nerves at shoulder and upper arm level,Chartwell RX LLC,531.05,15
+720,Scott-Vincent Borba,"Felty's syndrome, unspecified shoulder",Scott-Vincent Borba,147.69,9
+721,RIBASPHERE RibaPak,"Mech compl of oth urinary devices and implants, init encntr","PAR Pharmaceutical Companies, Inc.",883.29,9
+722,Ironman Glory,Breakdown (mechanical) of int fix of vertebrae,"Avon Products, Inc.",185.43,2
+723,PRAVASTATIN SODIUM,"Unspecified sprain of unspecified finger, subs encntr",St Marys Medical Park Pharmacy,924.88,11
+724,enema,"Infect/inflm reaction due to int fix of right femur, subs",Meijer Distribution Inc,516.86,13
+725,Nisoldipine,"Adverse effect of slctv serotonin reuptake inhibtr, sequela",Prasco Laboratories,53.21,1
+726,Hydrochlorothiazide,Other spinal muscular atrophies and related syndromes,Mylan Institutional Inc.,614.04,9
+727,Losartan Potassium,"Oth fx head/neck of l femr, 7thF",Cadila Healthcare Limited,752.03,8
+728,Levothyroxine Sodium,Campylobacter enteritis,"Northwind Pharmaceuticals, LLC",84.00,1
+729,Fenofibrate,"Discitis, unspecified, occipito-atlanto-axial region",American Health Packaging,632.43,12
+730,povidine iodine,"Epidural hemorrhage w LOC >24 hr w ret consc lev, sequela",Dynarex Corporation,986.14,15
+731,topiramate,"Barton's fracture of unspecified radius, sequela",American Health Packaging,131.86,8
+732,Methscopolamine Bromide,"Corrosion of unspecified degree of right foot, init encntr",E. Fougera & Co. a division of Fougera Pharmaceuticals Inc.,471.33,14
+733,Degree,Unspecified dislocation of left acromioclavicular joint,Conopco Inc. d/b/a Unilever,419.64,2
+734,Alka-Seltzer Fruit Chews,Laceration w/o foreign body of r rng fngr w damage to nail,"Bayer HealthCare LLC, Consumer Care",350.37,14
+735,Ocean Potion Instant Dry 30 Mist Water Sport Sunscreen,"Body mass index (BMI) 31.0-31.9, adult","Sun & Skin Care Research, LLC",354.90,14
+736,Carvedilol,Congenital unstable hip,REMEDYREPACK INC.,869.23,6
+737,Silk Antibacterial Foaming Hand Fresh Pear,"Nondisp fx of prox phalanx of r mid finger, init for opn fx","Blue Cross Laboratories, Inc.",305.80,9
+738,IVA ANNUA VAR ANNUA POLLEN,"Vestibular neuronitis, left ear","ALK-Abello, Inc.",505.16,4
+739,RABBIT HAIR AND EPITHELIA,"Puncture wound with foreign body, left knee","Allergy Laboratories, Inc.",902.55,1
+740,COREG,"Lesion of radial nerve, left upper limb",GlaxoSmithKline LLC,665.63,4
+741,Wakefern,"Other spondylosis with radiculopathy, site unspecified",Wakefern,403.69,1
+742,TRILYTE,Unsp traum displ spondylolysis of fourth cervcal vertebra,Alaven Pharmaceutical LLC,517.72,10
+743,ibuprofen,"Malig neoplm of ovrlp sites of heart, mediastinum and pleura",Publix Super Markets Inc,389.50,6
+744,Temovate,"Sltr-haris Type I physl fx upper end radius, left arm, init",PharmaDerm A division of Fougera Pharmaceuticals Inc.,410.95,15
+745,White Pine,"Person injured wh brd/alit from special agri vehicle, init","Nelco Laboratories, Inc.",544.19,8
+746,Night Time Original,"Sltr-haris Type I physeal fx unspecified metatarsal, sequela",Nash-Finch Company,943.36,12
+747,Methocarbamol,Carnitine deficiency due to inborn errors of metabolism,"H.J. Harkins Company, Inc.",152.10,6
+748,Assured Day time Cold and Cough,"Poisoning by other viral vaccines, assault, sequela","Bio-Pharm, Inc.",146.82,15
+749,Cocklebur,"Unspecified open wound, right ankle, initial encounter","Antigen Laboratories, Inc.",975.78,4
+750,Isopropyl Alcohol,Sprain of unspecified ligament of left ankle,Kroger Co,467.67,3
+751,KONSYL Sugar Free Orange Flavor Psyllium Fiber,"Dislocation of tarsometatarsal joint of right foot, sequela","Konsyl Pharmaceuticals, Inc.",779.84,12
+752,Ziprasidone Hydrochloride,"Unspecified injury of dorsal vein of left foot, subs encntr","Lupin Pharmaceuticals, Inc.",737.20,14
+753,Childrens Mucus Relief Expectorant Grape,"Lac w/o fb of abd wall, l upr q w/o penet perit cav, subs",Good Neighbor Pharmacy,272.84,8
+754,SPONGIA TOSTA,"Other physeal fracture of right metatarsal, 7thG",Hyland's,840.56,5
+755,Piroxicam,"Interstitial myositis, unspecified hand","Physicians Total Care, Inc.",241.22,4
+756,Rohto Relief,"Open bite of unspecified breast, initial encounter",The Mentholatum Company,876.96,1
+757,HEPAR SULPHURIS CALCAREUM,"Nondisp intertroch fx r femr, 7thF",REMEDY MAKERS,696.23,6
+758,Cerafill Retaliate,"Strain of musc/fasc/tend long head of biceps, unsp arm, subs","L'oreal Usa, Inc.",565.21,8
+759,BeneFIX,"Superficial foreign body, unspecified knee, init encntr","Wyeth BioPharma Division of Wyeth Pharmaceuticals Inc., a subsidiary of Pfizer Inc.",902.34,15
+760,edarbi,"Nondisp oblique fx shaft of r ulna, 7thN","Takeda Pharmaceuticals America, Inc.",210.69,3
+761,Prednisolone Sodium Phosphate,"Corrosion of unspecified degree of right wrist, init encntr","Physicians Total Care, Inc.",415.17,9
+762,Hydromorphone Hydrochloride,"Unsp fx second MC bone, right hand, subs for fx w delay heal","Mallinckrodt, Inc.",160.02,9
+763,Nicotine UN1654,"Osteonecrosis in diseases classified elsewhere, right thigh",Nicobrand LTD,924.17,9
+764,Atenolol,"Struck by falling object on oth powered watercraft, subs",REMEDYREPACK INC.,609.38,2
+765,TAVIST,"Unspecified kyphosis, cervicothoracic region","Novartis Consumer Health, Inc.",879.64,5
+766,Pramipexole Dihydrochloride,"Toxic effect of phosphorus and its compounds, self-harm","Breckenridge Pharmaceutical, Inc.",430.66,14
+767,Desferal,"Athscl native arteries of extrm w gangrene, unsp extremity",Novartis Pharmaceuticals Corporation,534.56,8
+768,Invirase,"Disp fx of lateral end l clavicle, subs for fx w routn heal","Genentech, Inc.",860.51,3
+769,Ranitidine,"Abrasion of unspecified ear, initial encounter",Unit Dose Services,772.26,6
+770,ziprasidone hydrochloride,"Breakdown of vascular dialysis catheter, sequela",REMEDYREPACK INC.,403.23,7
+771,Ultra Nutrition Eye,"Oth disrd of bone density and structure, right shoulder","AMI Cosmetic Co.,Ltd.",18.74,8
+772,GENOTROPIN,"Unspecified subluxation of unspecified hip, sequela",Pharmacia and Upjohn Company,712.47,11
+773,Levothyroxine sodium,Displaced fracture of neck of unspecified metacarpal bone,Sandoz Inc.,686.28,1
+774,Micro-K Extencaps,"Sltr-haris Type III physl fx low end unsp tibia, 7thK",Ther-Rx Corporation,890.91,4
+775,DiorSkin Nude 052 Rosy Bronze,Other fracture of unspecified femur,Parfums Christian Dior,106.27,1
+776,Thymupar,"Zygomatic fracture, left side, 7thB",Apotheca Company,196.62,9
+777,pain relief pm,"Orbital myositis, right orbit",Meijer Distribution Inc,694.24,7
+778,modafinil,"Dislocation of proximal interphaln joint of l idx fngr, subs","Aphena Pharma Solutions - Tennessee, LLC",936.81,8
+779,Hand Wash Nettoyant Pour Les Mains Vallina Tuberose,Motorcycle rider injured in collision w oth nonmotor vehicle,"Xiamen Anna Global Co., Ltd",959.68,10
+780,Rimmel London,"Displ suprcndl fx w intrcndl extn low end unsp femr, 7thN",Lancaster S.A.M.,190.67,4
+781,Hand Wash Nettoyant Pour Les Mains Orange Pekoe,Unspecified abdominal hernia without obstruction or gangrene,"Xiamen Anna Global Co., Ltd",123.50,6
+782,Cetirizine Hydrochloride,"Corrosion of unsp degree of unspecified palm, init encntr",Pack Pharmaceuticals LLC,568.93,10
+783,Moisturizer SPF15,Dyshidrosis [pompholyx],Goodier Cosmetics LP,314.33,13
+784,age renewal deep wrinkle moisturizer,Other physeal fracture of left calcaneus,"AMCOL Health and Beauty Solutions, Inc.",26.98,8
+785,Carvedilol,Other sprain of left elbow,REMEDYREPACK INC.,437.59,3
+786,Nortriptyline Hydrochloride,"Nondisp Rolando's fracture, l hand, subs for fx w nonunion",Clinical Solutions Wholesale,597.92,12
+787,Ludent,"Soft tissue disorder, unspecified",Bryant Ranch Prepack,126.77,8
+788,Carvedilol,"Passenger on bus injured in clsn w unsp mv nontraf, init",Aurobindo Pharma Limited,623.31,3
+789,Aspirin Free Pain Relief,"Other premature separation of placenta, first trimester",Safeway,708.54,9
+790,Quinapril Hydrochloride and Hydrochlorothiazide,"Pnctr w/o foreign body of finger w/o damage to nail, subs","Physicians Total Care, Inc.",553.96,10
+791,CLINDAMYCIN,"Toxic effect of corrosive organic compounds, undet, sequela","General Injectables & Vaccines, Inc",955.38,6
+792,Loperamide Hydrochloride,"War operations involving explosion of torpedo, milt, subs",Cardinal Health,87.67,8
+793,Antimicrobial Hand,"Collapsed vertebra, NEC, lumbosacral region, sqla",Moore Medical LLC,334.43,3
+794,Folic Acid,Other disorders of tooth development,Qualitest Pharmaceuticals,876.29,5
+795,GORILLA WARFARE,"Diseases of the nervous sys comp pregnancy, third trimester","G.S. COSMECEUTICAL USA, INC.",473.68,8
+796,Morphine Sulfate,"Disp fx of med wall of unsp acetab, subs for fx w routn heal",Bryant Ranch Prepack,253.30,12
+797,Goldlove Hand Sanitizer,Inj oth blood vessels at wrist and hand level of left arm,"Cixi Zhixin Bird Clean-care Product Co., Ltd.",314.36,6
+798,Edarbyclor,"Toxic effect of tobacco cigarettes, self-harm, sequela",Arbor Pharmaceuticals Ireland Limited,574.02,4
+799,Green Guard Ibupro Relief,"Other specified disorders of synovium, right elbow",Unifirst First Aid Corporation,818.74,15
+800,rea lo 40,"Unsp fx low end unsp ulna, 7thH",Crown Laboratories,806.18,7
+801,Liothyronine sodium,"Matern care for known or susp placntl insuff, 2nd tri, unsp",Mylan Pharmaceuticals Inc.,904.96,3
+802,ACONITUM NAPELLUS,"Oth fx shaft of l femur, subs for opn fx type I/2 w nonunion",HOMEOLAB USA INC,491.22,13
+803,Sween 24,"Unsp injury of muscle, fascia and tendon of abdomen, sequela","Coloplast Manufacturing US, LLC",802.86,11
+804,Dopamine Hydrochloride and Dextrose,"Inj oth blood vessels at lower leg level, left leg, sequela","Hospira, Inc.",851.74,4
+805,Lortab,Dual sensory impairment,A-S Medication Solutions LLC,261.52,13
+806,Doxorubicin Hydrochloride,"Type II occipital condyle fracture, unspecified side, 7thB",Sun Pharma Global FZE,337.55,13
+807,Tiger Balm,"Blister (nonthermal) of right upper arm, subs encntr",Haw Par Healthcare Ltd.,504.42,5
+808,Bengay Ultra Strength Pain Relieving,"Disp fx of head of r rad, 7thN","Johnson & Johnson Consumer Products Company, Division of Johnson & Johnson Consumer Companies, Inc.",969.75,6
+809,Octreotide acetate,"Nondisp seg fx shaft of humer, l arm, 7thD",Wockhardt USA LLC.,41.07,3
+810,Calcipotriene,"Strain extensor musc/fasc/tend l rng fngr at forarm lv, init","G & W Laboratories, Inc.",62.89,7
+811,Levothyroxine Sodium,Acanthosis nigricans,"PD-Rx Pharmaceuticals, Inc.",380.36,13
+812,SHISEIDO BENEFIANCE NUTRIPERFECT DAY,"Toxic effect of venom of snake, accidental, subs",SHISEIDO AMERICA INC.,364.20,3
+813,Antiseptic,Calcific tendinitis of unspecified shoulder,"Onpoint, Inc",14.81,7
+814,Lisinopril,Unspecified perichondritis of right external ear,Aurobindo Pharma Limited,754.90,11
+815,Drink Ease,"Unsp injury of blood vessels at wrs/hnd lv of left arm, subs",LC Industries,656.06,7
+816,Nobac Plus AB-F,Passenger on bus injured in clsn w oth and unsp mv nontraf,Mason Chemical Company,787.99,11
+817,Vapor Plus,"Postprocedural urethral stricture, female",Pharmadel LLC,722.85,14
+818,Treatment Set TS340053,"Milt op involving oth explosn and fragmt, civilian, sequela","Antigen Laboratories, Inc.",913.75,13
+819,SyGest,"Filamentary keratitis, left eye",Syntrion GmbH,904.04,1
+820,Nystatin,"Degeneration of pupillary margin, left eye","Preferred Pharmaceuticals, Inc",16.54,3
+821,Levothyroxine Sodium,Carbuncle of limb,Bryant Ranch Prepack,590.85,8
+822,L-Methylfolate Calcium,"Burn unsp degree of unsp mult fngr, not inc thumb, sqla",Virtus Pharmaceuticals,198.61,10
+823,ANTIBACTERIAL WIPES Candy Apple,"Congenital absence, atresia and stenosis of jejunum","BB17, LLC",681.10,10
+824,SaniSuds Foam Hand Sanitizer,"Paralytic calcifcn and ossification of muscle, right ank/ft",Palmer Fixture Company,851.75,1
+825,LBEL,Activities involving computer tech and electrnc devices,Ventura Corporation LTD.,478.51,2
+826,NITROGEN,"Inj unsp blood vess at hip and thi lev, left leg, sequela",Welders Supply Company,63.44,9
+827,Health Mart Mucus ER,Oth diseases and conditions compl preg/chldbrth,McKesson,542.49,14
+828,Pandanus Calc. carb.,"Unsp injury of ulnar artery at wrs/hnd lv of right arm, subs",Uriel Pharmacy Inc.,254.40,3
+829,Desert Sage,"Sprain of tarsometatarsal ligament of unsp foot, subs encntr","Antigen Laboratories, Inc.",97.02,12
+830,Diphenoxylate Hydrochloride and Atropine Sulfate,"Displacement of artificial heart, subsequent encounter",Greenstone LLC,959.81,4
+831,METOPROLOL SUCCINATE,"Unsp fracture of shaft of humerus, left arm, init for opn fx",Major Pharmaceuticals,734.62,11
+832,promethazine hydrochloride,"Secondary lacrimal gland atrophy, unspecified lacrimal gland","Caraco Pharmaceutical Laboratories, Ltd.",90.32,2
+833,Tiazac Extended Release,Bent bone of left ulna,Cardinal Health,850.33,9
+834,Soliris,"Hypospadias, penile",Alexion Pharmaceuticals Inc.,758.80,1
+835,Allergy Relief,"Other dislocation of left knee, initial encounter",Mckesson (Sunmark),159.05,15
+836,Triple Antibiotic Plus Pain Relief,Other complications of anesthesia during labor and delivery,"Valu Merchandisers, Co.",262.72,8
+837,Aspirin,"Displ avuls fracture (chip fracture) of right talus, sequela",CVS Pharmacy,774.06,4
+838,Anacardium Homaccord,"Nondisp longitud fx l patella, subs for clos fx w routn heal",Heel Inc,246.89,14
+839,Fanatrex,"Unsp injury of anterior tibial artery, left leg, sequela",Fusion Pharmaceuticals LLC,596.60,15
+840,STRIDEX,"Spontaneous rupture of other tendons, thigh",Blistex inc,264.97,12
+841,Adderall,"Disp fx of medial epicondyle of r humerus, init for opn fx",Teva Select Brands,121.45,9
+842,Tramadol Hydrochloride,"Puncture wound with foreign body, right knee",Rhodes Pharmaceuticals L.P.,350.99,1
+843,"QCare Rx Oral Cleansing and Suctioning System, Q2",Exposure to bed fire due to other burning material,Sage Products LLC,154.48,4
+844,allergy,"Injury of peritoneum, sequela",Kroger Company,907.47,11
+845,PHAZYME,"Displ commnt fx shaft of humer, r arm, 7thG","Preferred Pharmaceuticals, Inc",761.71,13
+846,Spascupreel,"Disp fx of head of right radius, subs for clos fx w malunion",Hameln Pharma GmbH,45.09,9
+847,ARANESP,Other fracture of lesser toe(s),Amgen Inc,415.33,10
+848,Doxepin Hydrochloride,"Hypochondriacal disorder, unspecified",Mylan Institutional Inc.,531.29,4
+849,Flecainide Acetate,"Disp fx of anterior wall of right acetabulum, sequela","Roxane Laboratories, Inc.",797.24,2
+850,Phenylephrine HCl,"Unspecified sprain of sternum, sequela",Cantrell Drug Company,826.24,5
+851,BROMUS INERMIS POLLEN,"Breakdown (mechanical) of indwelling urethral catheter, init","ALK-Abello, Inc.",896.56,2
+852,iBaba,"Insect bite of right eyelid and periocular area, init",Feelgood Health,211.39,1
+853,PREP PLUS PRIME BB BEAUTY BALM COMPACT,"Enteropathic arthropathies, unspecified hip",MAKEUP ART COSMETICS,609.51,4
+854,Insomnia,"Unspecified injury of popliteal vein, right leg, init encntr","Liddell Laboratories, Inc.",979.00,1
+855,LOreal Paris Visible Lift Repair Absolute Rapid Age Reversing Makeup Broad Spectrum SPF 16 Sunscreen,"Concussion w LOC of 30 minutes or less, sequela",L'Oreal USA Products Inc,522.70,10
+856,PROMETHAZINE HYDROCHLORIDE,"Felty's syndrome, unspecified knee",Direct Rx,287.71,11
+857,Lysol,Atresia of esophagus with tracheo-esophageal fistula,Reckitt Benckiser LLC,111.44,4
+858,DOCTORS CHOICE,"Expsr to resdnce or prolonged visit at high altitude, subs",Massco Dental A Division of Dunagin Pharmaceuticals,693.85,4
+859,Pleo Art U,"Conductive hear loss, uni, with restricted hear cntra side",Sanum Kehlbeck GmbH & Co. KG,924.13,8
+860,Lymphdrainex,Burn of first degree of left foot,"Energique, Inc.",363.52,5
+861,Doxepin Hydrochloride,"Disp fx of posterior wall of right acetabulum, init","H.J. Harkins Company, Inc.",554.18,13
+862,Simvastatin,"Oth fx upr end l ulna, subs for opn fx type I/2 w delay heal",Ranbaxy Pharmaceuticals Inc.,509.77,10
+863,Baby Butz,Non-prs chr ulcer of left heel and midft lmt to brkdwn skin,Olen Cosmetics Corporation,788.76,1
+864,Depo-Testosterone,"Other superficial bite of right lesser toe(s), sequela","Physicians Total Care, Inc.",498.12,14
+865,Chewable Aspirin,"Chronic periodontitis, generalized, severe","VALUE MERCHANDISERS COMPANY, INC.",247.24,7
+866,Absolute Total BB SPF37 PA 3Plus,Intestinal obstruction due to inspissated milk,WIZCOZ CORPORATION LTD,786.70,5
+867,DIBROMM,Torus fracture of lower end of unspecified ulna,Major Pharmaceuticals,181.62,4
+868,FIRST BXN Mouthwash,"Disorder of pancreatic internal secretion, unspecified","CutisPharma, Inc",757.16,7
+869,Sweet Gum,"Nondisp fx of shaft of third MC bone, right hand, sequela","Nelco Laboratories, Inc.",339.75,4
+870,RACHEL K MINERAL CC,"Displaced dome fx right talus, subs for fx w delay heal",RACHEL K COSMETICS PTE. LTD.,277.17,7
+871,Glimepiride,Other specified perinatal digestive system disorders,"Blenheim Pharmacal, Inc.",523.03,10
+872,Spironolactone,"Unspecified hearing loss, bilateral","UDL Laboratories, Inc.",506.28,3
+873,Throat Care,"Physeal arrest, femur","Newton Laboratories, Inc.",156.82,7
+874,Folic Acid,"Underdosing of other systemic antibiotics, sequela",REMEDYREPACK INC.,19.91,9
+875,ESIKA,"Spontaneous rupture of other tendons, lower leg","Ventura Corporation (San Juan, P.R)",21.79,4
+876,Furosemide,Sprain of interphalangeal joint of right great toe,Cardinal Health,89.93,13
+877,Arthritis Pain Reliever,"Unspecified adult maltreatment, confirmed, subs encntr",Ohm Laboratories Inc.,538.87,12
+878,Neutrogena Clear Face Break-Out Free Sunscreen,"Traumatic spondylopathy, occipito-atlanto-axial region",Neutrogena Corporation,437.75,3
+879,CAREALL Bacitracin,"Lac w fb of abd wall, right lower q w penet perit cav, init","New World Imports, Inc",471.36,10
+880,Pilocarpine Hydrochloride,"Nondisp fx of capitate bone, right wrist, init for clos fx","Physicians Total Care, Inc.",104.99,15
+881,Leader Allerhist,"Torus fracture of lower end of unsp ulna, init for clos fx",Cardinal Health,726.85,8
+882,DAYWEAR,"Coma scale, eyes open, spontaneous, EMR",ESTEE LAUDER INC,578.57,13
+883,RITE AID RENEWAL,"Sltr-haris Type I physeal fx lower end of ulna, right arm",RITE AID CORPORATION,972.41,8
+884,Dye-Free Wal-Dryl,"Laceration w fb of abd wall, epigst rgn w penet perit cav","WOONSOCKET PRESCRIPTION CENTER,INCORPORATED",540.04,13
+885,Lovastatin,"Explosion of bicycle tire, initial encounter",Mylan Pharmaceuticals Inc.,66.03,11
+886,Divalproex Sodium,"Pnctr w fb of right lesser toe(s) w/o damage to nail, subs",Lake Erie Medical DBA Quality Care Products LLC,983.99,15
+887,Lovastatin,"Unspecified dislocation of unspecified hip, subs encntr",REMEDYREPACK INC.,454.23,15
+888,Naproxen Sodium,"Nondisp fx of prox 3rd of navic bone of l wrs, 7thP",Keltman Pharmaceuticals Inc.,175.97,13
+889,athletes foot,Cutaneous abscess of left axilla,Walgreen Company,376.10,10
+890,Oatmeal Daily Moisturizing,"Lacerat msl/tnd lng extn msl toe at ank/ft lev, r foot, sqla","Davion, Inc",351.63,1
+891,Aluminum Hydroxide,"Poisoning by oth nonsteroid anti-inflam drugs, undetermined",LLC Federal Solutions,975.04,14
+892,SPF-60,"Displ Maisonneuve's fx unsp leg, 7thQ","Neutraderm, Inc.",957.12,7
+893,Pitressin,"Coma scale, best verbal response, inappropriate words, admit",Cardinal Health,189.79,3
+894,Isopropyl alcohol,"Underdosing of inhaled anesthetics, initial encounter",QUALITY CHOICE (Chain Drug Marketing Association),619.70,7
+895,Low-Ogestrel,"Bather struck by nonpowered watercraft, initial encounter","Watson Pharma, Inc.",403.16,5
+896,nighttime cold and flu relief,"Displ commnt fx shaft of unsp tibia, 7thQ",Walgreen Company,95.26,1
+897,USTILAGO MAYDIS,"Displ bicondylar fx l tibia, 7thM","ALK-Abello, Inc.",126.36,8
+898,SESAME SEED,"Frostbite w tissue necrosis of left knee and lower leg, subs","Allergy Laboratories, Inc.",948.30,5
+899,Amlodipine Besylate,"Nondisplaced dome fracture of left acetabulum, sequela",REMEDYREPACK INC.,875.38,11
+900,All Day Allergy Relief,"Burn third degree of unsp single finger except thumb, init",OUR FAMILY (NASH FINCH COMPANY),85.26,12
+901,SEAWEED MEDICLEAR MASK,Diuretics and oth and unsp drug/meds/biol subst,"AMI Cosmetic Co.,Ltd.",601.16,3
+902,Duramorph,Matern care for disproprtn of mixed matern and fetal origin,West-Ward Pharmaceutical Corp.,243.46,8
+903,LIDODERM,"Pnctr w/o foreign body of unsp cheek and TMJ area, sequela",STAT Rx USA LLC,736.10,13
+904,Extra-Virt Plus DHA,Presence of endocrine implants,Virtus Pharmaceuticals LLC,418.23,3
+905,LEADER Cough Drops Menthol Flavor,Visual deprivation nystagmus,Cardinal Health,726.50,6
+906,ZyPram,"Major laceration of right internal jugular vein, subs encntr","Vertical Pharmaceuticals, Inc",251.82,13
+907,Sisal,Diabetes due to underlying condition w hyprosm w coma,"Nelco Laboratories, Inc.",949.46,6
+908,Pleo Chelate,"Other spacecraft accident injuring occupant, init encntr",Sanum Kehlbeck GmbH & Co. KG,388.59,6
+909,Etodolac,"Nicotine dependence, other tobacco product",Rebel Distributors Corp,456.91,6
+910,Henry Schein Acetaminophen,"Subluxation of unspecified thoracic vertebra, subs encntr","Henry Schein, Inc.",399.40,13
+911,TIAZAC,"Other psychoactive substance use, unsp with withdrawal",Valeant Pharmaceuticals North America LLC,942.28,15
+912,Giant Ragweed,"Corrosion of third degree of oth site of trunk, subs encntr","Antigen Laboratories, Inc.",922.71,5
+913,Lisinopril,"Nondisplaced fracture of trapezium, left wrist, sequela",Bryant Ranch Prepack,50.80,2
+914,Soothe and Cool Free,Encounter for exam of eyes and vision w abnormal findings,"Medline Industries, Inc.",218.68,3
+915,LES BEIGES,Acquired absence of unspecified breast and nipple,CHANEL PARFUMS BEAUTE,474.40,7
+916,FLOVENT,"Legal intervnt w firearm disch, law enforc offl inj, sequela",GlaxoSmithKline LLC,389.91,14
+917,DawnMist Deodorant Bar No. 3,"Laceration w foreign body of left cheek and TMJ area, init","Donovan Industries, Inc",22.62,12
+918,Acetaminophen,"Other disorders of patella, right knee","A&Z Pharmaceutical, Inc.",176.83,6
+919,Ibuprofen 200,"Poisoning by opth drugs and preparations, undetermined, init",WALGREEN CO.,262.67,8
+920,CENTER-AL - ATRIPLEX WRIGHTII POLLEN,Other superficial bite of left wrist,"ALK-Abello, Inc.",915.09,14
+921,Cialis,"Severely displaced Zone I fx sacrum, subs for fx w nonunion","Physicians Total Care, Inc.",574.10,5
+922,Azathioprine,Oth soft tissue disorders related to use/pressure of forearm,Mylan Institutional Inc.,759.17,8
+923,Peach,"Corros third degree of unsp mult fngr (nail), not inc thumb","Antigen Laboratories, Inc.",165.10,3
+924,Nauzene,"Aggressive periodontitis, localized, severe","Alva-Amco Pharmacal Companies, Inc.",38.16,11
+925,CARE ONE,"Unspecified subluxation of right wrist and hand, sequela",AMERICAN SALES COMPANY,699.60,6
+926,Peptic Relief,"Injury of nerves at shldr/up arm, unsp arm, sequela",Good Neighbor Pharmacy,107.66,14
+927,ARC FIRST AID Contains 1000 PIECES,"Complete traumatic MCP amputation of r mid finger, sequela",American Red Cross,118.32,6
+928,Tretinoin,"Laceration w fb of unsp great toe w damage to nail, sequela","Triax Pharmaceuticals, LLC",939.06,1
+929,Oat Grain,"Unsp fx the low end l rad, 7thE","Nelco Laboratories, Inc.",192.94,3
+930,Cold Remedy Gan Mao Ling,"Corrosion of unspecified degree of left knee, init encntr",International Nature Nutraceuticals,484.08,11
+931,Fentanyl,"Spontaneous rupture of flexor tendons, forearm",Bryant Ranch Prepack,272.77,10
+932,FLEBEAUTE COLLAGENIC MAKE UP BASE,"Frostbite w tissue necrosis of right finger(s), subs encntr","THEFACESHOP CO., LTD.",44.08,14
+933,Amlodipine Besylate and Benazepril Hydrochloride,"Posterior dislocation of unspecified hip, sequela",Lake Erie Medical DBA Quality Care Products LLC,183.01,7
+934,NUCYNTA,"Acute embolism and thombos unsp deep veins of low extrm, bi","Janssen Pharmaceuticals, Inc.",506.44,7
+935,Synalar,"Other disorders of bone development and growth, left femur","Medimetriks Pharmaceuticals, Inc.",984.25,4
+936,Furosemide,"Driver of hv veh injured in clsn w pedl cyc nontraf, subs","Aphena Pharma Solutions - Tennessee, LLC",175.23,14
+937,Neutrogena Healthy Skin Enhancer,MERRF syndrome,Neutrogena Corporation,507.63,15
+938,Fentanyl,"Placenta percreta, first trimester","Actavis Pharma, Inc.",631.73,13
+939,ropinirole hydrochloride,"Unil femoral hernia, w/o obst or gangrene, not spcf as recur",Cadila Healthcare Limited,240.63,2
+940,Childrens Triacting Nighttime Cold and Cough,"Milt op involving explosn of marine weapons, civilian, subs",QUALITY CHOICE (Chain Drug Marketing Association),659.63,6
+941,INDOCIN,"Bent bone of unsp ulna, 7thE","Iroko Pharmaceuticals, LLC",407.65,9
+942,Painful Urination,"Disorders of magnesium metabolism, unspecified",Washington Homeopathic Products,27.87,3
+943,Metformin Hydrochloride,"Burn of first degree of unspecified lower leg, init encntr",Aurobindo Pharma Limited,376.72,9
+944,Treatment Set TS337026,"Underdosing of unspecified topical agent, initial encounter","Antigen Laboratories, Inc.",449.51,14
+945,Cefuroxime Axetil,"Burn of first degree of left ankle, sequela",Apotex Corp.,263.11,14
+946,PAUL AND JOE SILKY SMOOTH FOUNDATION UV 201,"Superficial foreign body of left thumb, initial encounter","Albion Co., Ltd",14.80,13
+947,C-Plus,"Burn 2nd deg mul sites of right lower limb, ex ank/ft, subs",Hyland's,113.13,7
+948,IOSAT,"Convulsions, not elsewhere classified",Anbex Inc.,43.88,5
+949,Baclofen,"Sprain of radiocarpal joint of unsp wrist, init encntr",Northstar RxLLC,88.77,4
+950,Varico HP,Amniotic fluid embolism in the puerperium,"Natural Creations, Inc.",396.62,5
+951,Fentanyl Citrate,"Disp fx of proximal phalanx of unsp thumb, init for opn fx",West-ward Pharmaceutical Corp.,986.16,14
+952,Colds Flu,Legal intervention involving injury by rubber bullet,Natural Health Supply,992.09,11
+953,Acyclovir,Toxic effect of strychnine and its salts,Aidarex Pharmaceuticals LLC,380.10,3
+954,Double Tussin Intense Cough Reliever,"Displ oblique fx shaft of humer, r arm, 7thK",Reese Pharmaceutical Co,604.23,12
+955,Magnesium Sulfate,"Unsp superficial injury of unspecified forearm, init encntr","Physicians Total Care, Inc.",535.31,15
+956,Glycopyrrolate,"Fx unsp carpal bone, right wrist, subs for fx w delay heal","American Regent, Inc.",687.95,10
+957,"Acetaminophen, Dextromethorphan Hydrobromide, Guaifenesin, Phenylephrine Hydrochloride",Atopic dermatitis,"AAA Pharmaceutical, Inc.",26.34,13
+958,Direct Safety Extra Strength Aspirin Free,"Other injury of superior mesenteric artery, sequela","Conney Safety Products, LLC",459.12,2
+959,Salonpas pain relieving PATCH HOT,"Thrombosis due to nervous system prosth dev/grft, sequela","Hisamitsu Pharmaceutical Co., Inc.",971.57,4
+960,flu and severe cold and cough,Obs & eval of NB for suspected genetic condition ruled out,Safeway,608.90,15
+961,Shopko Antibacterial Hand Sanitizer,"Burn unsp degree of unsp mult fngr, not inc thumb, init","Jets, Sets, & Elephants Beauty Corp.",376.19,12
+962,Gabapentin,"Asphyx d/t being trap in a (discarded) refrig, slf-hrm, sqla","NCS HealthCare of KY, Inc dba Vangard Labs",308.90,8
+963,CVS Moisturizing Lubricating Eye,Postproc hematoma of eye and adnexa fol other procedure,CVS Pharmacy,984.36,1
+964,PROAIR,Nontoxic diffuse goiter,"Preferred Pharmaceuticals, Inc",39.45,3
+965,ANTI-AGING HAND SANITIZER,Underdosing of emetics,CVS PHARMACY,25.85,15
+966,Estropipate,Duodenitis,"Physicians Total Care, Inc.",284.29,13
+967,Olay Regenerist,"Disp fx of r ulna styloid pro, 7thH",Procter & Gamble Manufacturing Company,537.98,7
+968,Neutrogena SkinClearing,Personal history of other diseases and conditions,Neutrogena Corporation,78.61,1
+969,Escitalopram Oxalate,Other subluxation of unspecified shoulder joint,Aurobindo Pharma Limited,851.86,1
+970,Zarontin,"Unspecified open wound, unspecified ankle, subs encntr",Parke-Davis Div of Pfizer Inc,44.92,10
+971,SEROQUEL,"Minor laceration of unsp internal jugular vein, init encntr",Cardinal Health,343.93,11
+972,BETHANECHOL CHLORIDE,"Unsp fracture of left toe(s), init encntr for open fracture","Golden State Medical Supply, Inc.",866.12,14
+973,"SAGE MIX, COMMON/DARK-LEAVED/DRAGON/PASTURE POLLEN","Nondisp spiral fx shaft of unsp tibia, 7thQ","Allergy Laboratories, Inc.",12.34,13
+974,Head and Shoulders Conditioner,"Traum hemor cereb, w LOC w dth d/t oth cause bf consc, sqla",Procter & Gamble Manufacturing Co.,374.31,2
+975,MORPHINE SULFATE,"Burn of third degree of left thigh, initial encounter","Mallinckrodt, Inc.",759.21,1
+976,COUMADIN,Functional disorders of polymorphonuclear neutrophils,"Aphena Pharma Solutions - Tennessee, Inc.",388.71,14
+977,ADVATE,"Hydroxyapatite deposition disease, hand",Baxter Healthcare Corporation,882.67,6
+978,TACT,"Displ intertroch fx l femr, 7thM","Sato Pharmaceutical Inc., Ltd.",742.43,11
+979,Methylprednisolone,"Wedge comprsn fx unsp thor vert, subs for fx w routn heal","JUBILANT CADISTA PHARMACEUTICALS, INC.",19.44,10
+980,Lumene Time Freeze Anti-Age CC Color Correcting SPF 20 Sunscreen Broad Spectrum LIGHT,Traum rupt of palmar ligmt of r little finger at MCP/IP jt,LUMENE OY,677.85,1
+981,vecuronium bromide,"Displ commnt fx unsp patella, init for opn fx type 3A/B/C",Cardinal Health,674.76,12
+982,Primidone,"Displ spiral fx shaft of ulna, r arm, 7thN",McKesson Contract Packaging,646.77,4
+983,DYSPEPSIA HEADACHE,Obstructed labor due to breech presentation,Natural Health Supply,310.45,8
+984,Day Time Gelcap,"Drug-induced chronic gout, right shoulder, with tophus","Kareway Product, Inc.",767.46,13
+985,Film Coated Ibuprofen,"Subluxation of tarsal joint of left foot, sequela",Family Dollar,236.45,3
+986,Aluminum Hydroxide,"Unsp injury of musc/fasc/tend at forarm lv, right arm, subs",LLC Federal Solutions,645.30,3
+987,DONEPEZIL HYDROCHLORIDE,"Injury of facial nerve, right side, sequela","Accord Healthcare, Inc.",173.17,5
+988,Metformin Hydrochloride,Non-prs chronic ulcer oth prt unsp lower leg w unsp severity,"Amneal Pharmaceuticals of New York, LLC",116.98,4
+989,ropinirole,"Drug-induced chronic gout, unspecified shoulder, with tophus","Glenmark Generics Inc., USA",85.61,6
+990,Lansoprazole,"Follicular lymphoma grade IIIa, unspecified site",Wockhardt Limited,969.99,5
+991,Senna-Lax,Drowning and submersion due to watercraft overturning,McKesson Contract Packaging,24.12,15
+992,ESIKA 3-IN-1 PRO MAKE UP FOUNDATION SPF 20 BASE DE MAQUILLAJE PARA ROSTRO 3-EN-1 PRO FPS 20,"Complete traumatic trnsphal amp of r idx fngr, sequela",Ventura Corporation LTD,215.89,14
+993,Clarins Rouge Hydra Nude - 02 Nude Coral,"Fx unsp metatarsal bone(s), right foot, init for opn fx",Laboratoires Clarins S.A.,270.61,11
+994,Benzphetamine Hydrochloride,"Nondisp trimalleol fx l low leg, init for opn fx type I/2","Paddock Laboratories, Inc.",598.19,10
+995,SESAME SEED,Cutaneous listeriosis,"Allergy Laboratories, Inc.",552.01,4
+996,NAPROXEN,"Synovial hypertrophy, not elsewhere classified, left thigh",West-Ward Pharmaceutical Corp,308.21,10
+997,Ibuprofen and Pseudoephedrine Hydrochloride,"Strain flexor musc/fasc/tend r mid fngr at wrs/hnd lv, init",Topco Associates LLC,76.86,15
+998,Meijer Sport SPF 50,"Displ apophyseal fx unsp femr, 7thF",Meijer Distribution Inc,197.66,15
+999,equaline hair regrowth treatment,"Strain of unsp musc/tend at lower leg level, right leg, init",Supervalu Inc,916.77,7
+1000,CICLOPIROX,"Other fracture of shaft of radius, left arm, sequela","Paddock Laboratories, Inc.",767.09,1

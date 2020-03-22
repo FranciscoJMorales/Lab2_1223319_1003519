@@ -235,6 +235,7 @@ namespace Lab3_1223319_1003519.Controllers
         {
             try
             {
+               
                 using (StreamReader lector = new StreamReader(Storage.Instance.dir))
                 {
                     Storage.Instance.Farmacos = lector.ReadToEnd();
@@ -246,21 +247,65 @@ namespace Lab3_1223319_1003519.Controllers
                 {
                     if (text[i] != "")
                     {
-                        Farmaco nuevo = new Farmaco
+                        InfoFarmaco Infonuevo = new InfoFarmaco
                         {
-                            ID = Int32.Parse(text[i].Substring(0, text[i].IndexOf(";")))
+                            ID = Int32.Parse(text[i].Substring(0, text[i].IndexOf(",")))
+                        };                                 
+                        Farmaco Farmaconuevo = new Farmaco
+                        {
+                            ID = Int32.Parse(text[i].Substring(0, text[i].IndexOf(",")))
                         };
-                        text[i] = text[i].Remove(0, text[i].IndexOf(";") + 1);
-                        nuevo.Nombre = text[i].Substring(0, text[i].IndexOf(";"));
-                        while (text[i].IndexOf(';') >= 0)
-                        {
-                            text[i] = text[i].Remove(0, text[i].IndexOf(';') + 1);
+                        text[i] = text[i].Remove(0, text[i].IndexOf(",") + 1);
+
+                        if (text[i].Substring(0, 1)== "\""){
+                            //Farmaconuevo.Nombre = 
+                            Infonuevo.Nombre =text[i].Substring(0, text[i].IndexOf("\","));
+                            text[i] = text[i].Remove(0, text[i].IndexOf("\",") + 2);
                         }
-                        nuevo.Cantidad = Int32.Parse(text[i]);
-                        if (nuevo.Cantidad > 0)
-                            Storage.Instance.Indice.Add(nuevo, Farmaco.CompararNombre);
                         else
-                            Storage.Instance.SinExistencias.Add(nuevo, Farmaco.CompararNombre);
+                        {
+                            Infonuevo.Nombre = text[i].Substring(0, text[i].IndexOf(","));
+                            text[i] = text[i].Remove(0, text[i].IndexOf(",") + 1);
+                        }
+                        if (text[i].Substring(0, 1).Equals("\""))
+                        {
+                            Infonuevo.Descripcion = text[i].Substring(0, text[i].IndexOf("\","));
+                            text[i] = text[i].Remove(0, text[i].IndexOf("\",") + 2);
+                        }
+                        else
+                        {
+                            Infonuevo.Descripcion = text[i].Substring(0, text[i].IndexOf(","));
+                            text[i] = text[i].Remove(0, text[i].IndexOf(",") + 1);
+                        }
+                        if (text[i].Substring(0, 1).Equals("\""))
+                        {
+                            Infonuevo.Productora = text[i].Substring(0, text[i].IndexOf("\","));
+                            text[i] = text[i].Remove(0, text[i].IndexOf("\",") + 2);
+                        }
+                        else
+                        {
+                            Infonuevo.Productora = text[i].Substring(0, text[i].IndexOf(""));
+                            text[i] = text[i].Remove(0, text[i].IndexOf(",") + 2);
+                        }
+
+                        if (text[i].Substring(0, 1).Equals("$"))
+                        {
+                            Infonuevo.Productora = text[i].Substring(0, text[i].IndexOf(","));
+                            text[i] = text[i].Remove(0, text[i].IndexOf(",") + 1);
+                        }
+                        else
+                        {
+                            Infonuevo.Precio = double.Parse(text[i].Substring(0, text[i].IndexOf(",")));
+                            text[i] = text[i].Remove(0, text[i].IndexOf(",") + 1);
+                        }
+                        Infonuevo.Existencia = Int32.Parse(text[i]);
+
+                        Farmaconuevo.Nombre = Infonuevo.Nombre;
+                        Farmaconuevo.Cantidad = Int32.Parse(text[i]);
+                        if (Farmaconuevo.Cantidad > 0)
+                            Storage.Instance.Indice.Add(Farmaconuevo, Farmaco.CompararNombre);
+                        else
+                            Storage.Instance.SinExistencias.Add(Farmaconuevo, Farmaco.CompararNombre);
                     }
                 }
             }
